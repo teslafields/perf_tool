@@ -1,0 +1,123 @@
+ shm_app  2316 [001]  1656.811658:  probe_shm_app:in: (10b88)
+ shm_app  2317 [003]  1656.813722:syscalls:sys_enter_set_robust_list: head: 0x76dce070, len: 0x000c
+ shm_app  2317 [003]  1656.813734: syscalls:sys_exit_set_robust_list: 0x0
+ shm_app  2317 [003]  1656.813925:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2316 [001]  1656.814175:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2316 [001]  1656.816798:   syscalls:sys_exit_futex: 0x1
+ shm_app  2316 [001]  1656.816822:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2317 [003]  1656.818953:   syscalls:sys_exit_futex: 0x0
+ shm_app  2317 [003]  1656.819036:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2317 [003]  1656.819841:   syscalls:sys_exit_futex: 0x1
+ shm_app  2317 [003]  1656.819849:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2316 [001]  1656.821750:   syscalls:sys_exit_futex: 0x0
+ shm_app  2316 [001]  1656.821882: probe_shm_app:out: (10b88 <- 10ca0)
+1- Time elapsed: 10224
+----------------------------------------------------------------------------------------------------
+ shm_app  2316 [001]  1656.822032:  probe_shm_app:in: (10b88)
+ shm_app  2316 [001]  1656.822110:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2316 [001]  1656.822869:   syscalls:sys_exit_futex: 0x1
+ shm_app  2316 [001]  1656.822877:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2317 [003]  1656.825063:   syscalls:sys_exit_futex: 0x0
+ shm_app  2317 [003]  1656.825136:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2317 [003]  1656.825892:   syscalls:sys_exit_futex: 0x1
+ shm_app  2317 [003]  1656.825898:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2316 [001]  1656.827784:   syscalls:sys_exit_futex: 0x0
+ shm_app  2316 [001]  1656.827889: probe_shm_app:out: (10b88 <- 10ca0)
+2- Time elapsed: 5857
+----------------------------------------------------------------------------------------------------
+ shm_app  2316 [001]  1656.833813:  probe_shm_app:in: (10b88)
+ shm_app  2316 [001]  1656.833891:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2316 [001]  1656.833912:   syscalls:sys_exit_futex: 0x1
+ shm_app  2316 [001]  1656.833919:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2317 [003]  1656.836038:   syscalls:sys_exit_futex: 0x0
+ shm_app  2317 [003]  1656.836109:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2317 [003]  1656.836880:   syscalls:sys_exit_futex: 0x1
+ shm_app  2317 [003]  1656.836886:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2316 [001]  1656.838724:   syscalls:sys_exit_futex: 0x0
+ shm_app  2316 [001]  1656.838827: probe_shm_app:out: (10b88 <- 10ca0)
+3- Time elapsed: 5014
+----------------------------------------------------------------------------------------------------
+ shm_app  2316 [001]  1656.845609:  probe_shm_app:in: (10b88)
+ shm_app  2316 [001]  1656.845684:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2316 [001]  1656.845702:   syscalls:sys_exit_futex: 0x1
+ shm_app  2316 [001]  1656.845710:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2317 [003]  1656.847834:   syscalls:sys_exit_futex: 0x0
+ shm_app  2317 [003]  1656.847905:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2317 [003]  1656.848692:   syscalls:sys_exit_futex: 0x1
+ shm_app  2317 [003]  1656.848699:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2316 [001]  1656.850638:   syscalls:sys_exit_futex: 0x0
+ shm_app  2316 [001]  1656.850743: probe_shm_app:out: (10b88 <- 10ca0)
+4- Time elapsed: 5134
+----------------------------------------------------------------------------------------------------
+ shm_app  2316 [001]  1656.857370:  probe_shm_app:in: (10b88)
+ shm_app  2316 [001]  1656.857445:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2316 [001]  1656.857466:   syscalls:sys_exit_futex: 0x1
+ shm_app  2316 [001]  1656.857472:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2317 [003]  1656.859591:   syscalls:sys_exit_futex: 0x0
+ shm_app  2317 [003]  1656.859662:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2317 [003]  1656.860479:   syscalls:sys_exit_futex: 0x1
+ shm_app  2317 [003]  1656.860488:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2316 [001]  1656.862342:   syscalls:sys_exit_futex: 0x0
+ shm_app  2316 [001]  1656.862444: probe_shm_app:out: (10b88 <- 10ca0)
+5- Time elapsed: 5074
+----------------------------------------------------------------------------------------------------
+ shm_app  2316 [001]  1656.869156:  probe_shm_app:in: (10b88)
+ shm_app  2316 [001]  1656.869233:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2316 [001]  1656.869252:   syscalls:sys_exit_futex: 0x1
+ shm_app  2316 [001]  1656.869259:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2317 [003]  1656.871375:   syscalls:sys_exit_futex: 0x0
+ shm_app  2317 [003]  1656.871446:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2317 [003]  1656.872181:   syscalls:sys_exit_futex: 0x1
+ shm_app  2317 [003]  1656.872189:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2316 [001]  1656.874050:   syscalls:sys_exit_futex: 0x0
+ shm_app  2316 [001]  1656.874154: probe_shm_app:out: (10b88 <- 10ca0)
+6- Time elapsed: 4998
+----------------------------------------------------------------------------------------------------
+ shm_app  2316 [001]  1656.880985:  probe_shm_app:in: (10b88)
+ shm_app  2316 [001]  1656.881060:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2316 [001]  1656.881081:   syscalls:sys_exit_futex: 0x1
+ shm_app  2316 [001]  1656.881088:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2317 [003]  1656.883199:   syscalls:sys_exit_futex: 0x0
+ shm_app  2317 [003]  1656.883270:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2317 [003]  1656.884056:   syscalls:sys_exit_futex: 0x1
+ shm_app  2317 [003]  1656.884062:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2316 [001]  1656.885947:   syscalls:sys_exit_futex: 0x0
+ shm_app  2316 [001]  1656.886050: probe_shm_app:out: (10b88 <- 10ca0)
+7- Time elapsed: 5065
+----------------------------------------------------------------------------------------------------
+ shm_app  2316 [001]  1656.892771:  probe_shm_app:in: (10b88)
+ shm_app  2316 [001]  1656.892847:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2316 [001]  1656.892866:   syscalls:sys_exit_futex: 0x1
+ shm_app  2316 [001]  1656.892872:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2317 [003]  1656.894991:   syscalls:sys_exit_futex: 0x0
+ shm_app  2317 [003]  1656.895062:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2317 [003]  1656.895844:   syscalls:sys_exit_futex: 0x1
+ shm_app  2317 [003]  1656.895851:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2316 [001]  1656.897738:   syscalls:sys_exit_futex: 0x0
+ shm_app  2316 [001]  1656.897841: probe_shm_app:out: (10b88 <- 10ca0)
+8- Time elapsed: 5070
+----------------------------------------------------------------------------------------------------
+ shm_app  2316 [001]  1656.904522:  probe_shm_app:in: (10b88)
+ shm_app  2316 [001]  1656.904598:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2316 [001]  1656.904617:   syscalls:sys_exit_futex: 0x1
+ shm_app  2316 [001]  1656.904624:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2317 [003]  1656.906687:   syscalls:sys_exit_futex: 0x0
+ shm_app  2317 [003]  1656.906757:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2317 [003]  1656.907543:   syscalls:sys_exit_futex: 0x1
+ shm_app  2317 [003]  1656.907550:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2316 [001]  1656.909437:   syscalls:sys_exit_futex: 0x0
+ shm_app  2316 [001]  1656.909540: probe_shm_app:out: (10b88 <- 10ca0)
+9- Time elapsed: 5018
+----------------------------------------------------------------------------------------------------
+ shm_app  2316 [001]  1656.916303:  probe_shm_app:in: (10b88)
+ shm_app  2316 [001]  1656.916379:  syscalls:sys_enter_futex: uaddr: 0x76f91000, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2316 [001]  1656.916398:   syscalls:sys_exit_futex: 0x1
+ shm_app  2316 [001]  1656.916406:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0109, val: 0x0001, utime: 0x0000, uaddr2: 0x0000, val3: 0xffffffff
+ shm_app  2317 [003]  1656.918521:   syscalls:sys_exit_futex: 0x0
+ shm_app  2317 [003]  1656.918592:  syscalls:sys_enter_futex: uaddr: 0x76f91010, op: 0x0001, val: 0x0001, utime: 0x0000, uaddr2: 0x1128c, val3: 0x0000
+ shm_app  2317 [003]  1656.919379:   syscalls:sys_exit_futex: 0x1
+ shm_app  2317 [003]  1656.919780:     syscalls:sys_enter_exit_group: error_code: 0x0000
+ shm_app  2316 [001]  1656.921308:   syscalls:sys_exit_futex: 0x0
+ shm_app  2316 [001]  1656.921413: probe_shm_app:out: (10b88 <- 10ca0)
+10- Time elapsed: 5110
+----------------------------------------------------------------------------------------------------

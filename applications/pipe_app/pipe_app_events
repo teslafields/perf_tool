@@ -1,0 +1,131 @@
+pipe_app  2165 [001]  1522.044946: probe_pipe_app:in: (10a18)
+pipe_app  2165 [001]  1522.047549:  syscalls:sys_enter_write: fd: 0x0006, buf: 0x22068, count: 0x0800
+pipe_app  2165 [001]  1522.047594:   syscalls:sys_exit_write: 0x800
+pipe_app  2165 [001]  1522.047604:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22068, count: 0x0800
+pipe_app  2166 [001]  1522.049986:syscalls:sys_enter_set_robust_list: head: 0x76c4b5f0, len: 0x000c
+pipe_app  2166 [001]  1522.049997: syscalls:sys_exit_set_robust_list: 0x0
+pipe_app  2166 [001]  1522.050175:   syscalls:sys_enter_read: fd: 0x0005, buf: 0x22868, count: 0x0800
+pipe_app  2166 [001]  1522.050213:    syscalls:sys_exit_read: 0x800
+pipe_app  2166 [001]  1522.050281:  syscalls:sys_enter_write: fd: 0x0004, buf: 0x22868, count: 0x0800
+pipe_app  2166 [001]  1522.050310:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.050315:   syscalls:sys_enter_read: fd: 0x0005, buf: 0x22868, count: 0x0800
+pipe_app  2165 [001]  1522.050340:    syscalls:sys_exit_read: 0x800
+pipe_app  2165 [001]  1522.050463:probe_pipe_app:out: (10a18 <- 10b7c)
+1- Time elapsed: 5517
+----------------------------------------------------------------------------------------------------
+pipe_app  2165 [001]  1522.056783: probe_pipe_app:in: (10a18)
+pipe_app  2165 [001]  1522.056861:  syscalls:sys_enter_write: fd: 0x0006, buf: 0x22068, count: 0x0800
+pipe_app  2165 [001]  1522.056891:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.056915:    syscalls:sys_exit_read: 0x800
+pipe_app  2166 [001]  1522.056981:  syscalls:sys_enter_write: fd: 0x0004, buf: 0x22868, count: 0x0800
+pipe_app  2166 [001]  1522.056993:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.056998:   syscalls:sys_enter_read: fd: 0x0005, buf: 0x22868, count: 0x0800
+pipe_app  2165 [001]  1522.057015:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22068, count: 0x0800
+pipe_app  2165 [001]  1522.057026:    syscalls:sys_exit_read: 0x800
+pipe_app  2165 [001]  1522.057120:probe_pipe_app:out: (10a18 <- 10b7c)
+2- Time elapsed: 337
+----------------------------------------------------------------------------------------------------
+pipe_app  2165 [001]  1522.068554: probe_pipe_app:in: (10a18)
+pipe_app  2165 [001]  1522.068629:  syscalls:sys_enter_write: fd: 0x0006, buf: 0x22068, count: 0x0800
+pipe_app  2165 [001]  1522.068666:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.068692:    syscalls:sys_exit_read: 0x800
+pipe_app  2166 [001]  1522.068757:  syscalls:sys_enter_write: fd: 0x0004, buf: 0x22868, count: 0x0800
+pipe_app  2166 [001]  1522.068768:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.068774:   syscalls:sys_enter_read: fd: 0x0005, buf: 0x22868, count: 0x0800
+pipe_app  2165 [001]  1522.068791:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22068, count: 0x0800
+pipe_app  2165 [001]  1522.068802:    syscalls:sys_exit_read: 0x800
+pipe_app  2165 [001]  1522.068896:probe_pipe_app:out: (10a18 <- 10b7c)
+3- Time elapsed: 342
+----------------------------------------------------------------------------------------------------
+pipe_app  2165 [001]  1522.080338: probe_pipe_app:in: (10a18)
+pipe_app  2165 [001]  1522.080412:  syscalls:sys_enter_write: fd: 0x0006, buf: 0x22068, count: 0x0800
+pipe_app  2165 [001]  1522.080451:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.080478:    syscalls:sys_exit_read: 0x800
+pipe_app  2166 [001]  1522.080542:  syscalls:sys_enter_write: fd: 0x0004, buf: 0x22868, count: 0x0800
+pipe_app  2166 [001]  1522.080553:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.080559:   syscalls:sys_enter_read: fd: 0x0005, buf: 0x22868, count: 0x0800
+pipe_app  2165 [001]  1522.080577:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22068, count: 0x0800
+pipe_app  2165 [001]  1522.080589:    syscalls:sys_exit_read: 0x800
+pipe_app  2165 [001]  1522.080682:probe_pipe_app:out: (10a18 <- 10b7c)
+4- Time elapsed: 344
+----------------------------------------------------------------------------------------------------
+pipe_app  2165 [001]  1522.092133: probe_pipe_app:in: (10a18)
+pipe_app  2165 [001]  1522.092209:  syscalls:sys_enter_write: fd: 0x0006, buf: 0x22068, count: 0x0800
+pipe_app  2165 [001]  1522.092246:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.092273:    syscalls:sys_exit_read: 0x800
+pipe_app  2166 [001]  1522.092338:  syscalls:sys_enter_write: fd: 0x0004, buf: 0x22868, count: 0x0800
+pipe_app  2166 [001]  1522.092349:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.092355:   syscalls:sys_enter_read: fd: 0x0005, buf: 0x22868, count: 0x0800
+pipe_app  2165 [001]  1522.092371:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22068, count: 0x0800
+pipe_app  2165 [001]  1522.092382:    syscalls:sys_exit_read: 0x800
+pipe_app  2165 [001]  1522.092476:probe_pipe_app:out: (10a18 <- 10b7c)
+5- Time elapsed: 343
+----------------------------------------------------------------------------------------------------
+pipe_app  2165 [001]  1522.103877: probe_pipe_app:in: (10a18)
+pipe_app  2165 [001]  1522.103952:  syscalls:sys_enter_write: fd: 0x0006, buf: 0x22068, count: 0x0800
+pipe_app  2165 [001]  1522.103990:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.104015:    syscalls:sys_exit_read: 0x800
+pipe_app  2166 [001]  1522.104079:  syscalls:sys_enter_write: fd: 0x0004, buf: 0x22868, count: 0x0800
+pipe_app  2166 [001]  1522.104092:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.104097:   syscalls:sys_enter_read: fd: 0x0005, buf: 0x22868, count: 0x0800
+pipe_app  2165 [001]  1522.104113:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22068, count: 0x0800
+pipe_app  2165 [001]  1522.104124:    syscalls:sys_exit_read: 0x800
+pipe_app  2165 [001]  1522.104217:probe_pipe_app:out: (10a18 <- 10b7c)
+6- Time elapsed: 340
+----------------------------------------------------------------------------------------------------
+pipe_app  2165 [001]  1522.115692: probe_pipe_app:in: (10a18)
+pipe_app  2165 [001]  1522.115768:  syscalls:sys_enter_write: fd: 0x0006, buf: 0x22068, count: 0x0800
+pipe_app  2165 [001]  1522.115802:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.115828:    syscalls:sys_exit_read: 0x800
+pipe_app  2166 [001]  1522.115893:  syscalls:sys_enter_write: fd: 0x0004, buf: 0x22868, count: 0x0800
+pipe_app  2166 [001]  1522.115904:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.115910:   syscalls:sys_enter_read: fd: 0x0005, buf: 0x22868, count: 0x0800
+pipe_app  2165 [001]  1522.115927:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22068, count: 0x0800
+pipe_app  2165 [001]  1522.115937:    syscalls:sys_exit_read: 0x800
+pipe_app  2165 [001]  1522.116031:probe_pipe_app:out: (10a18 <- 10b7c)
+7- Time elapsed: 339
+----------------------------------------------------------------------------------------------------
+pipe_app  2165 [001]  1522.127482: probe_pipe_app:in: (10a18)
+pipe_app  2165 [001]  1522.127556:  syscalls:sys_enter_write: fd: 0x0006, buf: 0x22068, count: 0x0800
+pipe_app  2165 [001]  1522.127599:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.127625:    syscalls:sys_exit_read: 0x800
+pipe_app  2166 [001]  1522.127689:  syscalls:sys_enter_write: fd: 0x0004, buf: 0x22868, count: 0x0800
+pipe_app  2166 [001]  1522.127700:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.127707:   syscalls:sys_enter_read: fd: 0x0005, buf: 0x22868, count: 0x0800
+pipe_app  2165 [001]  1522.127726:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22068, count: 0x0800
+pipe_app  2165 [001]  1522.127737:    syscalls:sys_exit_read: 0x800
+pipe_app  2165 [001]  1522.127831:probe_pipe_app:out: (10a18 <- 10b7c)
+8- Time elapsed: 349
+----------------------------------------------------------------------------------------------------
+pipe_app  2165 [001]  1522.139242: probe_pipe_app:in: (10a18)
+pipe_app  2165 [001]  1522.139316:  syscalls:sys_enter_write: fd: 0x0006, buf: 0x22068, count: 0x0800
+pipe_app  2165 [001]  1522.139355:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.139380:    syscalls:sys_exit_read: 0x800
+pipe_app  2166 [001]  1522.139443:  syscalls:sys_enter_write: fd: 0x0004, buf: 0x22868, count: 0x0800
+pipe_app  2166 [001]  1522.139456:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.139462:   syscalls:sys_enter_read: fd: 0x0005, buf: 0x22868, count: 0x0800
+pipe_app  2165 [001]  1522.139480:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22068, count: 0x0800
+pipe_app  2165 [001]  1522.139491:    syscalls:sys_exit_read: 0x800
+pipe_app  2165 [001]  1522.139584:probe_pipe_app:out: (10a18 <- 10b7c)
+9- Time elapsed: 342
+----------------------------------------------------------------------------------------------------
+pipe_app  2165 [001]  1522.151033: probe_pipe_app:in: (10a18)
+pipe_app  2165 [001]  1522.151110:  syscalls:sys_enter_write: fd: 0x0006, buf: 0x22068, count: 0x0800
+pipe_app  2165 [001]  1522.151148:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.151173:    syscalls:sys_exit_read: 0x800
+pipe_app  2166 [001]  1522.151238:  syscalls:sys_enter_write: fd: 0x0004, buf: 0x22868, count: 0x0800
+pipe_app  2166 [001]  1522.151249:   syscalls:sys_exit_write: 0x800
+pipe_app  2166 [001]  1522.151621:syscalls:sys_enter_fstat64: fd: 0x0001, statbuf: 0x7ecf0530
+pipe_app  2166 [001]  1522.151635: syscalls:sys_exit_fstat64: 0x0
+pipe_app  2166 [001]  1522.151860:    syscalls:sys_enter_brk: brk: 0x0000
+pipe_app  2166 [001]  1522.151867:     syscalls:sys_exit_brk: 0x9ca000
+pipe_app  2166 [001]  1522.151872:    syscalls:sys_enter_brk: brk: 0x9eb000
+pipe_app  2166 [001]  1522.153000:     syscalls:sys_exit_brk: 0x9eb000
+pipe_app  2166 [001]  1522.153037:  syscalls:sys_enter_write: fd: 0x0001, buf: 0x9ca008, count: 0x000a
+pipe_app  2166 [001]  1522.153076:   syscalls:sys_exit_write: 0xa
+pipe_app  2166 [001]  1522.153572:     syscalls:sys_enter_exit_group: error_code: 0x0000
+pipe_app  2165 [003]  1522.155330:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22068, count: 0x0800
+pipe_app  2165 [003]  1522.155365:    syscalls:sys_exit_read: 0x800
+pipe_app  2165 [003]  1522.155466:probe_pipe_app:out: (10a18 <- 10b7c)
+10- Time elapsed: 4433
+----------------------------------------------------------------------------------------------------

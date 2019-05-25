@@ -1,0 +1,600 @@
+0- Time elapsed: 0
+----------------------------------------------------------------------------------------------------
+0]   731.907214:  probe_random_calc:in: (10820)
+0]   731.908391: probe_random_calc:out: (10820 <- 108bc)
+0]   731.908391:       1958                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   731.908391:        109                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+1- Time elapsed: 1177
+----------------------------------------------------------------------------------------------------
+0]   731.917273:  probe_random_calc:in: (10820)
+0]   731.918397: probe_random_calc:out: (10820 <- 108bc)
+0]   731.918397:        717                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   731.918397:         11                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+2- Time elapsed: 1124
+----------------------------------------------------------------------------------------------------
+0]   731.927344:  probe_random_calc:in: (10820)
+0]   731.928467: probe_random_calc:out: (10820 <- 108bc)
+0]   731.928467:        609                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   731.928467:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+3- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   731.937416:  probe_random_calc:in: (10820)
+0]   731.938549: probe_random_calc:out: (10820 <- 108bc)
+0]   731.938549:        664                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   731.938549:          2                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+4- Time elapsed: 1133
+----------------------------------------------------------------------------------------------------
+0]   731.947488:  probe_random_calc:in: (10820)
+0]   731.948611: probe_random_calc:out: (10820 <- 108bc)
+0]   731.948611:        651                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   731.948611:          2                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+5- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   731.957560:  probe_random_calc:in: (10820)
+0]   731.958682: probe_random_calc:out: (10820 <- 108bc)
+0]   731.958682:        640                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   731.958682:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+6- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   731.967632:  probe_random_calc:in: (10820)
+0]   731.968754: probe_random_calc:out: (10820 <- 108bc)
+0]   731.968754:        585                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   731.968754:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+7- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   731.977704:  probe_random_calc:in: (10820)
+0]   731.978849: probe_random_calc:out: (10820 <- 108bc)
+0]   731.978849:        745                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   731.978849:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+8- Time elapsed: 1145
+----------------------------------------------------------------------------------------------------
+0]   731.987779:  probe_random_calc:in: (10820)
+0]   731.988901: probe_random_calc:out: (10820 <- 108bc)
+0]   731.988901:        622                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   731.988901:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+9- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   731.997851:  probe_random_calc:in: (10820)
+0]   731.998972: probe_random_calc:out: (10820 <- 108bc)
+0]   731.998972:        628                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   731.998972:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+10- Time elapsed: 1121
+----------------------------------------------------------------------------------------------------
+0]   732.007923:  probe_random_calc:in: (10820)
+0]   732.009046: probe_random_calc:out: (10820 <- 108bc)
+0]   732.009046:        648                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.009046:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+11- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.017995:  probe_random_calc:in: (10820)
+0]   732.019140: probe_random_calc:out: (10820 <- 108bc)
+0]   732.019140:        711                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.019140:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+12- Time elapsed: 1145
+----------------------------------------------------------------------------------------------------
+0]   732.028068:  probe_random_calc:in: (10820)
+0]   732.029189: probe_random_calc:out: (10820 <- 108bc)
+0]   732.029189:        601                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.029189:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+13- Time elapsed: 1121
+----------------------------------------------------------------------------------------------------
+0]   732.038139:  probe_random_calc:in: (10820)
+0]   732.039262: probe_random_calc:out: (10820 <- 108bc)
+0]   732.039262:        983                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.039262:          2                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+14- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.048211:  probe_random_calc:in: (10820)
+0]   732.049333: probe_random_calc:out: (10820 <- 108bc)
+0]   732.049333:        621                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.049333:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+15- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.058282:  probe_random_calc:in: (10820)
+0]   732.059426: probe_random_calc:out: (10820 <- 108bc)
+0]   732.059426:        695                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.059426:          3                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+16- Time elapsed: 1144
+----------------------------------------------------------------------------------------------------
+0]   732.068354:  probe_random_calc:in: (10820)
+0]   732.069477: probe_random_calc:out: (10820 <- 108bc)
+0]   732.069477:        717                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.069477:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+17- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.078426:  probe_random_calc:in: (10820)
+0]   732.079548: probe_random_calc:out: (10820 <- 108bc)
+0]   732.079548:        670                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.079548:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+18- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.088500:  probe_random_calc:in: (10820)
+0]   732.089621: probe_random_calc:out: (10820 <- 108bc)
+0]   732.089621:        654                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.089621:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+19- Time elapsed: 1121
+----------------------------------------------------------------------------------------------------
+0]   732.098570:  probe_random_calc:in: (10820)
+0]   732.099705: probe_random_calc:out: (10820 <- 108bc)
+0]   732.099705:        686                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.099705:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+20- Time elapsed: 1135
+----------------------------------------------------------------------------------------------------
+0]   732.108642:  probe_random_calc:in: (10820)
+0]   732.109764: probe_random_calc:out: (10820 <- 108bc)
+0]   732.109764:        623                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.109764:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+21- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.118712:  probe_random_calc:in: (10820)
+0]   732.119835: probe_random_calc:out: (10820 <- 108bc)
+0]   732.119835:        981                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.119835:          3                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+22- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.128784:  probe_random_calc:in: (10820)
+0]   732.129907: probe_random_calc:out: (10820 <- 108bc)
+0]   732.129907:        709                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.129907:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+23- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.138857:  probe_random_calc:in: (10820)
+0]   732.139980: probe_random_calc:out: (10820 <- 108bc)
+0]   732.139980:        715                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.139980:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+24- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.148929:  probe_random_calc:in: (10820)
+0]   732.150051: probe_random_calc:out: (10820 <- 108bc)
+0]   732.150051:        658                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.150051:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+25- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.159002:  probe_random_calc:in: (10820)
+0]   732.160124: probe_random_calc:out: (10820 <- 108bc)
+0]   732.160124:        658                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.160124:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+26- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.169072:  probe_random_calc:in: (10820)
+0]   732.170194: probe_random_calc:out: (10820 <- 108bc)
+0]   732.170194:        707                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.170194:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+27- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.179144:  probe_random_calc:in: (10820)
+0]   732.180267: probe_random_calc:out: (10820 <- 108bc)
+0]   732.180267:        712                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.180267:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+28- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.189216:  probe_random_calc:in: (10820)
+0]   732.190339: probe_random_calc:out: (10820 <- 108bc)
+0]   732.190339:        656                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.190339:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+29- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.199288:  probe_random_calc:in: (10820)
+0]   732.200411: probe_random_calc:out: (10820 <- 108bc)
+0]   732.200411:        706                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.200411:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+30- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.209360:  probe_random_calc:in: (10820)
+0]   732.210482: probe_random_calc:out: (10820 <- 108bc)
+0]   732.210482:        680                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.210482:          2                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+31- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.219431:  probe_random_calc:in: (10820)
+0]   732.220554: probe_random_calc:out: (10820 <- 108bc)
+0]   732.220554:        639                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.220554:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+32- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.229505:  probe_random_calc:in: (10820)
+0]   732.230627: probe_random_calc:out: (10820 <- 108bc)
+0]   732.230627:        618                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.230627:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+33- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.239577:  probe_random_calc:in: (10820)
+0]   732.240699: probe_random_calc:out: (10820 <- 108bc)
+0]   732.240699:        652                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.240699:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+34- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.249648:  probe_random_calc:in: (10820)
+0]   732.250791: probe_random_calc:out: (10820 <- 108bc)
+0]   732.250791:        683                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.250791:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+35- Time elapsed: 1143
+----------------------------------------------------------------------------------------------------
+0]   732.259720:  probe_random_calc:in: (10820)
+0]   732.260841: probe_random_calc:out: (10820 <- 108bc)
+0]   732.260841:        531                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.260841:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+36- Time elapsed: 1121
+----------------------------------------------------------------------------------------------------
+0]   732.269792:  probe_random_calc:in: (10820)
+0]   732.270914: probe_random_calc:out: (10820 <- 108bc)
+0]   732.270914:        574                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.270914:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+37- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.279864:  probe_random_calc:in: (10820)
+0]   732.280985: probe_random_calc:out: (10820 <- 108bc)
+0]   732.280985:        587                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.280985:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+38- Time elapsed: 1121
+----------------------------------------------------------------------------------------------------
+0]   732.289936:  probe_random_calc:in: (10820)
+0]   732.291079: probe_random_calc:out: (10820 <- 108bc)
+0]   732.291079:        638                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.291079:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+39- Time elapsed: 1143
+----------------------------------------------------------------------------------------------------
+0]   732.300009:  probe_random_calc:in: (10820)
+0]   732.301131: probe_random_calc:out: (10820 <- 108bc)
+0]   732.301131:        623                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.301131:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+40- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.310081:  probe_random_calc:in: (10820)
+0]   732.311203: probe_random_calc:out: (10820 <- 108bc)
+0]   732.311203:        617                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.311203:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+41- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.320153:  probe_random_calc:in: (10820)
+0]   732.321275: probe_random_calc:out: (10820 <- 108bc)
+0]   732.321275:        594                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.321275:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+42- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.330225:  probe_random_calc:in: (10820)
+0]   732.331368: probe_random_calc:out: (10820 <- 108bc)
+0]   732.331368:        696                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.331368:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+43- Time elapsed: 1143
+----------------------------------------------------------------------------------------------------
+0]   732.340298:  probe_random_calc:in: (10820)
+0]   732.341419: probe_random_calc:out: (10820 <- 108bc)
+0]   732.341419:        647                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.341419:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+44- Time elapsed: 1121
+----------------------------------------------------------------------------------------------------
+0]   732.350369:  probe_random_calc:in: (10820)
+0]   732.351490: probe_random_calc:out: (10820 <- 108bc)
+0]   732.351490:        636                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.351490:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+45- Time elapsed: 1121
+----------------------------------------------------------------------------------------------------
+0]   732.360440:  probe_random_calc:in: (10820)
+0]   732.361563: probe_random_calc:out: (10820 <- 108bc)
+0]   732.361563:        748                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.361563:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+46- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.370523:  probe_random_calc:in: (10820)
+0]   732.371658: probe_random_calc:out: (10820 <- 108bc)
+0]   732.371658:        757                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.371658:          2                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+47- Time elapsed: 1135
+----------------------------------------------------------------------------------------------------
+0]   732.380595:  probe_random_calc:in: (10820)
+0]   732.381717: probe_random_calc:out: (10820 <- 108bc)
+0]   732.381717:        635                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.381717:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+48- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.390667:  probe_random_calc:in: (10820)
+0]   732.391789: probe_random_calc:out: (10820 <- 108bc)
+0]   732.391789:        612                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.391789:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+49- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.400739:  probe_random_calc:in: (10820)
+0]   732.401861: probe_random_calc:out: (10820 <- 108bc)
+0]   732.401861:        616                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.401861:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+50- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.410810:  probe_random_calc:in: (10820)
+0]   732.411933: probe_random_calc:out: (10820 <- 108bc)
+0]   732.411933:        689                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.411933:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+51- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.420884:  probe_random_calc:in: (10820)
+0]   732.422006: probe_random_calc:out: (10820 <- 108bc)
+0]   732.422006:        667                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.422006:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+52- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.430956:  probe_random_calc:in: (10820)
+0]   732.432078: probe_random_calc:out: (10820 <- 108bc)
+0]   732.432078:        633                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.432078:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+53- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.441029:  probe_random_calc:in: (10820)
+0]   732.442151: probe_random_calc:out: (10820 <- 108bc)
+0]   732.442151:        613                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.442151:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+54- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.451100:  probe_random_calc:in: (10820)
+0]   732.452223: probe_random_calc:out: (10820 <- 108bc)
+0]   732.452223:        719                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.452223:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+55- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.461172:  probe_random_calc:in: (10820)
+0]   732.462294: probe_random_calc:out: (10820 <- 108bc)
+0]   732.462294:        628                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.462294:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+56- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.471244:  probe_random_calc:in: (10820)
+0]   732.472366: probe_random_calc:out: (10820 <- 108bc)
+0]   732.472366:        563                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.472366:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+57- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.481315:  probe_random_calc:in: (10820)
+0]   732.482437: probe_random_calc:out: (10820 <- 108bc)
+0]   732.482437:        597                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.482437:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+58- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.491387:  probe_random_calc:in: (10820)
+0]   732.492510: probe_random_calc:out: (10820 <- 108bc)
+0]   732.492510:        668                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.492510:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+59- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.501459:  probe_random_calc:in: (10820)
+0]   732.502581: probe_random_calc:out: (10820 <- 108bc)
+0]   732.502581:        668                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.502581:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+60- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.511530:  probe_random_calc:in: (10820)
+0]   732.512652: probe_random_calc:out: (10820 <- 108bc)
+0]   732.512652:        598                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.512652:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+61- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.521602:  probe_random_calc:in: (10820)
+0]   732.522748: probe_random_calc:out: (10820 <- 108bc)
+0]   732.522748:        813                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.522748:          2                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+62- Time elapsed: 1146
+----------------------------------------------------------------------------------------------------
+0]   732.531673:  probe_random_calc:in: (10820)
+0]   732.532795: probe_random_calc:out: (10820 <- 108bc)
+0]   732.532795:        608                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.532795:          2                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+63- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.541745:  probe_random_calc:in: (10820)
+0]   732.542868: probe_random_calc:out: (10820 <- 108bc)
+0]   732.542868:        629                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.542868:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+64- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.551817:  probe_random_calc:in: (10820)
+0]   732.552938: probe_random_calc:out: (10820 <- 108bc)
+0]   732.552938:        632                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.552938:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+65- Time elapsed: 1121
+----------------------------------------------------------------------------------------------------
+0]   732.561891:  probe_random_calc:in: (10820)
+0]   732.563034: probe_random_calc:out: (10820 <- 108bc)
+0]   732.563034:        719                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.563034:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+66- Time elapsed: 1143
+----------------------------------------------------------------------------------------------------
+0]   732.571962:  probe_random_calc:in: (10820)
+0]   732.573084: probe_random_calc:out: (10820 <- 108bc)
+0]   732.573084:        602                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.573084:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+67- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.582034:  probe_random_calc:in: (10820)
+0]   732.583156: probe_random_calc:out: (10820 <- 108bc)
+0]   732.583156:        709                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.583156:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+68- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.592106:  probe_random_calc:in: (10820)
+0]   732.593229: probe_random_calc:out: (10820 <- 108bc)
+0]   732.593229:        700                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.593229:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+69- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.602178:  probe_random_calc:in: (10820)
+0]   732.603321: probe_random_calc:out: (10820 <- 108bc)
+0]   732.603321:        739                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.603321:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+70- Time elapsed: 1143
+----------------------------------------------------------------------------------------------------
+0]   732.612251:  probe_random_calc:in: (10820)
+0]   732.613373: probe_random_calc:out: (10820 <- 108bc)
+0]   732.613373:        676                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.613373:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+71- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.622322:  probe_random_calc:in: (10820)
+0]   732.623443: probe_random_calc:out: (10820 <- 108bc)
+0]   732.623443:        623                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.623443:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+72- Time elapsed: 1121
+----------------------------------------------------------------------------------------------------
+0]   732.632394:  probe_random_calc:in: (10820)
+0]   732.633516: probe_random_calc:out: (10820 <- 108bc)
+0]   732.633516:        651                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.633516:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+73- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.642465:  probe_random_calc:in: (10820)
+0]   732.643609: probe_random_calc:out: (10820 <- 108bc)
+0]   732.643609:        664                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.643609:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+74- Time elapsed: 1144
+----------------------------------------------------------------------------------------------------
+0]   732.652537:  probe_random_calc:in: (10820)
+0]   732.653659: probe_random_calc:out: (10820 <- 108bc)
+0]   732.653659:        678                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.653659:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+75- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.662608:  probe_random_calc:in: (10820)
+0]   732.663730: probe_random_calc:out: (10820 <- 108bc)
+0]   732.663730:        675                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.663730:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+76- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.672681:  probe_random_calc:in: (10820)
+0]   732.673802: probe_random_calc:out: (10820 <- 108bc)
+0]   732.673802:        624                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.673802:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+77- Time elapsed: 1121
+----------------------------------------------------------------------------------------------------
+0]   732.682754:  probe_random_calc:in: (10820)
+0]   732.683877: probe_random_calc:out: (10820 <- 108bc)
+0]   732.683877:        655                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.683877:          4                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+78- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.692826:  probe_random_calc:in: (10820)
+0]   732.693948: probe_random_calc:out: (10820 <- 108bc)
+0]   732.693948:        687                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.693948:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+79- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.702898:  probe_random_calc:in: (10820)
+0]   732.704021: probe_random_calc:out: (10820 <- 108bc)
+0]   732.704021:        881                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.704021:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+80- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.712970:  probe_random_calc:in: (10820)
+0]   732.714091: probe_random_calc:out: (10820 <- 108bc)
+0]   732.714091:        652                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.714091:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+81- Time elapsed: 1121
+----------------------------------------------------------------------------------------------------
+0]   732.723041:  probe_random_calc:in: (10820)
+0]   732.724162: probe_random_calc:out: (10820 <- 108bc)
+0]   732.724162:        624                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.724162:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+82- Time elapsed: 1121
+----------------------------------------------------------------------------------------------------
+0]   732.733113:  probe_random_calc:in: (10820)
+0]   732.734234: probe_random_calc:out: (10820 <- 108bc)
+0]   732.734234:        593                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.734234:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+83- Time elapsed: 1121
+----------------------------------------------------------------------------------------------------
+0]   732.743184:  probe_random_calc:in: (10820)
+0]   732.744306: probe_random_calc:out: (10820 <- 108bc)
+0]   732.744306:        611                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.744306:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+84- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.753256:  probe_random_calc:in: (10820)
+0]   732.754378: probe_random_calc:out: (10820 <- 108bc)
+0]   732.754378:        593                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.754378:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+85- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.763328:  probe_random_calc:in: (10820)
+0]   732.764450: probe_random_calc:out: (10820 <- 108bc)
+0]   732.764450:        628                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.764450:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+86- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.773404:  probe_random_calc:in: (10820)
+0]   732.774527: probe_random_calc:out: (10820 <- 108bc)
+0]   732.774527:        667                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.774527:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+87- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.783475:  probe_random_calc:in: (10820)
+0]   732.784597: probe_random_calc:out: (10820 <- 108bc)
+0]   732.784597:        635                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.784597:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+88- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.793547:  probe_random_calc:in: (10820)
+0]   732.794691: probe_random_calc:out: (10820 <- 108bc)
+0]   732.794691:        770                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.794691:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+89- Time elapsed: 1144
+----------------------------------------------------------------------------------------------------
+0]   732.803619:  probe_random_calc:in: (10820)
+0]   732.804740: probe_random_calc:out: (10820 <- 108bc)
+0]   732.804740:        618                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.804740:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+90- Time elapsed: 1121
+----------------------------------------------------------------------------------------------------
+0]   732.813691:  probe_random_calc:in: (10820)
+0]   732.814812: probe_random_calc:out: (10820 <- 108bc)
+0]   732.814812:        574                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.814812:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+91- Time elapsed: 1121
+----------------------------------------------------------------------------------------------------
+0]   732.823765:  probe_random_calc:in: (10820)
+0]   732.824887: probe_random_calc:out: (10820 <- 108bc)
+0]   732.824887:        696                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.824887:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+92- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.833837:  probe_random_calc:in: (10820)
+0]   732.834980: probe_random_calc:out: (10820 <- 108bc)
+0]   732.834980:        761                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.834980:          2                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+93- Time elapsed: 1143
+----------------------------------------------------------------------------------------------------
+0]   732.843908:  probe_random_calc:in: (10820)
+0]   732.845031: probe_random_calc:out: (10820 <- 108bc)
+0]   732.845031:        691                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.845031:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+94- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.853981:  probe_random_calc:in: (10820)
+0]   732.855103: probe_random_calc:out: (10820 <- 108bc)
+0]   732.855103:        627                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.855103:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+95- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.864053:  probe_random_calc:in: (10820)
+0]   732.865176: probe_random_calc:out: (10820 <- 108bc)
+0]   732.865176:        708                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.865176:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+96- Time elapsed: 1123
+----------------------------------------------------------------------------------------------------
+0]   732.874126:  probe_random_calc:in: (10820)
+0]   732.875271: probe_random_calc:out: (10820 <- 108bc)
+0]   732.875271:        778                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.875271:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+97- Time elapsed: 1145
+----------------------------------------------------------------------------------------------------
+0]   732.884197:  probe_random_calc:in: (10820)
+0]   732.885318: probe_random_calc:out: (10820 <- 108bc)
+0]   732.885318:        668                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.885318:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+98- Time elapsed: 1121
+----------------------------------------------------------------------------------------------------
+0]   732.894268:  probe_random_calc:in: (10820)
+0]   732.895390: probe_random_calc:out: (10820 <- 108bc)
+0]   732.895390:        601                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.895390:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+99- Time elapsed: 1122
+----------------------------------------------------------------------------------------------------
+0]   732.904340:  probe_random_calc:in: (10820)
+0]   732.905463: probe_random_calc:out: (10820 <- 108bc)
+0]   732.905463:        785                 r0003:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)
+0]   732.905463:          1                 r0005:             108bc random_calc_thread (/home/pi/dev/perf_tests/out/random_calc)

@@ -1,0 +1,209 @@
+ Percent |	Source code & Disassembly of libpthread-2.24.so for probe_libpthread:lockin (3 samples)
+-------------------------------------------------------------------------------------------------------
+         :
+         :
+         :
+         :	Disassembly of section .text:
+         :
+         :	00008adc <__pthread_mutex_lock>:
+         :	__GI___pthread_mutex_lock():
+[31m  100.00[m :	[35m  8adc:[m[34m       push    {r4, r5, lr}[m
+    0.00 :	[35m  8ae0:[m[34m       sub     sp, sp, #12[m
+    0.00 :	[35m  8ae4:[m[34m       ldr     r3, [r0, #12][m
+    0.00 :	[35m  8ae8:[m[34m       ldr     r2, [pc, #724]  ; 8dc4 <__pthread_mutex_lock+0x2e8>[m
+    0.00 :	[35m  8aec:[m[34m       ands    r1, r3, #124    ; 0x7c[m
+    0.00 :	[35m  8af0:[m[34m       and     r2, r2, r3[m
+    0.00 :	[35m  8af4:[m[34m       bne     8b7c <__pthread_mutex_lock+0xa0>[m
+    0.00 :	[35m  8af8:[m[34m       cmp     r2, #0[m
+    0.00 :	[35m  8afc:[m[34m       mov     r4, r0[m
+    0.00 :	[35m  8b00:[m[34m       bne     8b88 <__pthread_mutex_lock+0xac>[m
+    0.00 :	[35m  8b04:[m[34m       mov     r3, #0[m
+    0.00 :	[35m  8b08:[m[34m       str     r3, [sp, #4][m
+    0.00 :	[35m  8b0c:[m[34m       mov     r3, #1[m
+    0.00 :	[35m  8b10:[m[34m       ldrex   r2, [r4][m
+    0.00 :	[35m  8b14:[m[34m       cmp     r2, #0[m
+    0.00 :	[35m  8b18:[m[34m       bne     8b2c <__pthread_mutex_lock+0x50>[m
+    0.00 :	[35m  8b1c:[m[34m       strex   r1, r3, [r4][m
+    0.00 :	[35m  8b20:[m[34m       cmp     r1, #0[m
+    0.00 :	[35m  8b24:[m[34m       bne     8b10 <__pthread_mutex_lock+0x34>[m
+    0.00 :	[35m  8b28:[m[34m       mcr     15, 0, r0, cr7, cr10, {5}[m
+    0.00 :	[35m  8b2c:[m[34m       bne     8b64 <__pthread_mutex_lock+0x88>[m
+    0.00 :	[35m  8b30:[m[34m       ldr     r3, [r4, #8][m
+    0.00 :	[35m  8b34:[m[34m       cmp     r3, #0[m
+    0.00 :	[35m  8b38:[m[34m       bne     8d40 <__pthread_mutex_lock+0x264>[m
+    0.00 :	[35m  8b3c:[m[34m       bl      13120 <__aeabi_read_tp>[m
+    0.00 :	[35m  8b40:[m[34m       mov     r5, r0[m
+    0.00 :	[35m  8b44:[m[34m       ldr     r3, [r4, #16][m
+    0.00 :	[35m  8b48:[m[34m       ldr     r2, [r5, #-1112]        ; 0xfffffba8[m
+    0.00 :	[35m  8b4c:[m[34m       mov     r0, #0[m
+    0.00 :	[35m  8b50:[m[34m       add     r3, r3, #1[m
+    0.00 :	[35m  8b54:[m[34m       str     r2, [r4, #8][m
+    0.00 :	[35m  8b58:[m[34m       str     r3, [r4, #16][m
+    0.00 :	[35m  8b5c:[m[34m       add     sp, sp, #12[m
+    0.00 :	[35m  8b60:[m[34m       pop     {r4, r5, pc}[m
+    0.00 :	[35m  8b64:[m[34m       ldr     r1, [r4, #12][m
+    0.00 :	[35m  8b68:[m[34m       mov     r0, r4[m
+    0.00 :	[35m  8b6c:[m[34m       and     r1, r1, #128    ; 0x80[m
+    0.00 :	[35m  8b70:[m[34m       str     r2, [sp, #4][m
+    0.00 :	[35m  8b74:[m[34m       bl      fe7c <__lll_lock_wait>[m
+    0.00 :	[35m  8b78:[m[34m       b       8b30 <__pthread_mutex_lock+0x54>[m
+    0.00 :	[35m  8b7c:[m[34m       bl      8350 <__pthread_mutex_lock_full>[m
+    0.00 :	[35m  8b80:[m[34m       add     sp, sp, #12[m
+    0.00 :	[35m  8b84:[m[34m       pop     {r4, r5, pc}[m
+    0.00 :	[35m  8b88:[m[34m       and     r3, r3, #127    ; 0x7f[m
+    0.00 :	[35m  8b8c:[m[34m       cmp     r3, #1[m
+    0.00 :	[35m  8b90:[m[34m       bne     8c34 <__pthread_mutex_lock+0x158>[m
+    0.00 :	[35m  8b94:[m[34m       bl      13120 <__aeabi_read_tp>[m
+    0.00 :	[35m  8b98:[m[34m       ldr     r2, [r4, #8][m
+    0.00 :	[35m  8b9c:[m[34m       mov     r5, r0[m
+    0.00 :	[35m  8ba0:[m[34m       ldr     r0, [r0, #-1112]        ; 0xfffffba8[m
+    0.00 :	[35m  8ba4:[m[34m       cmp     r0, r2[m
+    0.00 :	[35m  8ba8:[m[34m       strne   r1, [sp, #4][m
+    0.00 :	[35m  8bac:[m[34m       beq     8c18 <__pthread_mutex_lock+0x13c>[m
+    0.00 :	[35m  8bb0:[m[34m       ldrex   r2, [r4][m
+    0.00 :	[35m  8bb4:[m[34m       cmp     r2, #0[m
+    0.00 :	[35m  8bb8:[m[34m       bne     8bcc <__pthread_mutex_lock+0xf0>[m
+    0.00 :	[35m  8bbc:[m[34m       strex   r1, r3, [r4][m
+    0.00 :	[35m  8bc0:[m[34m       cmp     r1, #0[m
+    0.00 :	[35m  8bc4:[m[34m       bne     8bb0 <__pthread_mutex_lock+0xd4>[m
+    0.00 :	[35m  8bc8:[m[34m       mcr     15, 0, r0, cr7, cr10, {5}[m
+    0.00 :	[35m  8bcc:[m[34m       beq     8be4 <__pthread_mutex_lock+0x108>[m
+    0.00 :	[35m  8bd0:[m[34m       ldr     r1, [r4, #12][m
+    0.00 :	[35m  8bd4:[m[34m       mov     r0, r4[m
+    0.00 :	[35m  8bd8:[m[34m       and     r1, r1, #128    ; 0x80[m
+    0.00 :	[35m  8bdc:[m[34m       str     r2, [sp, #4][m
+    0.00 :	[35m  8be0:[m[34m       bl      fe7c <__lll_lock_wait>[m
+    0.00 :	[35m  8be4:[m[34m       ldr     r3, [r4, #8][m
+    0.00 :	[35m  8be8:[m[34m       cmp     r3, #0[m
+    0.00 :	[35m  8bec:[m[34m       moveq   r3, #1[m
+    0.00 :	[35m  8bf0:[m[34m       streq   r3, [r4, #4][m
+    0.00 :	[35m  8bf4:[m[34m       beq     8b44 <__pthread_mutex_lock+0x68>[m
+    0.00 :	[35m  8bf8:[m[34m       ldr     r3, [pc, #456]  ; 8dc8 <__pthread_mutex_lock+0x2ec>[m
+    0.00 :	[35m  8bfc:[m[34m       ldr     r1, [pc, #456]  ; 8dcc <__pthread_mutex_lock+0x2f0>[m
+    0.00 :	[35m  8c00:[m[34m       ldr     r0, [pc, #456]  ; 8dd0 <__pthread_mutex_lock+0x2f4>[m
+    0.00 :	[35m  8c04:[m[34m       add     r3, pc, r3[m
+    0.00 :	[35m  8c08:[m[34m       mov     r2, #117        ; 0x75[m
+    0.00 :	[35m  8c0c:[m[34m       add     r1, pc, r1[m
+    0.00 :	[35m  8c10:[m[34m       add     r0, pc, r0[m
+    0.00 :	[35m  8c14:[m[34m       bl      4114 <__assert_fail@plt>[m
+    0.00 :	[35m  8c18:[m[34m       ldr     r3, [r4, #4][m
+    0.00 :	[35m  8c1c:[m[34m       cmn     r3, #1[m
+    0.00 :	[35m  8c20:[m[34m       beq     8d14 <__pthread_mutex_lock+0x238>[m
+    0.00 :	[35m  8c24:[m[34m       add     r3, r3, #1[m
+    0.00 :	[35m  8c28:[m[34m       str     r3, [r4, #4][m
+    0.00 :	[35m  8c2c:[m[34m       mov     r0, r1[m
+    0.00 :	[35m  8c30:[m[34m       b       8b5c <__pthread_mutex_lock+0x80>[m
+    0.00 :	[35m  8c34:[m[34m       cmp     r3, #3[m
+    0.00 :	[35m  8c38:[m[34m       bne     8d1c <__pthread_mutex_lock+0x240>[m
+    0.00 :	[35m  8c3c:[m[34m       ldr     r3, [pc, #400]  ; 8dd4 <__pthread_mutex_lock+0x2f8>[m
+    0.00 :	[35m  8c40:[m[34m       add     r3, pc, r3[m
+    0.00 :	[35m  8c44:[m[34m       ldr     r3, [r3][m
+    0.00 :	[35m  8c48:[m[34m       cmp     r3, #0[m
+    0.00 :	[35m  8c4c:[m[34m       beq     8b04 <__pthread_mutex_lock+0x28>[m
+    0.00 :	[35m  8c50:[m[34m       mov     r2, #1[m
+    0.00 :	[35m  8c54:[m[34m       str     r1, [sp, #4][m
+    0.00 :	[35m  8c58:[m[34m       ldrex   r3, [r4][m
+    0.00 :	[35m  8c5c:[m[34m       cmp     r3, #0[m
+    0.00 :	[35m  8c60:[m[34m       bne     8c74 <__pthread_mutex_lock+0x198>[m
+    0.00 :	[35m  8c64:[m[34m       strex   r1, r2, [r4][m
+    0.00 :	[35m  8c68:[m[34m       cmp     r1, #0[m
+    0.00 :	[35m  8c6c:[m[34m       bne     8c58 <__pthread_mutex_lock+0x17c>[m
+    0.00 :	[35m  8c70:[m[34m       mcr     15, 0, r0, cr7, cr10, {5}[m
+    0.00 :	[35m  8c74:[m[34m       moveq   r5, r2[m
+    0.00 :	[35m  8c78:[m[34m       movne   r5, #0[m
+    0.00 :	[35m  8c7c:[m[34m       beq     8ce8 <__pthread_mutex_lock+0x20c>[m
+    0.00 :	[35m  8c80:[m[34m       ldr     r3, [r4, #20][m
+    0.00 :	[35m  8c84:[m[34m       mov     r1, r5[m
+    0.00 :	[35m  8c88:[m[34m       add     r3, r3, #5[m
+    0.00 :	[35m  8c8c:[m[34m       lsl     r3, r3, r2[m
+    0.00 :	[35m  8c90:[m[34m       cmp     r3, #100        ; 0x64[m
+    0.00 :	[35m  8c94:[m[34m       movge   r3, #100        ; 0x64[m
+    0.00 :	[35m  8c98:[m[34m       add     r5, r5, #1[m
+    0.00 :	[35m  8c9c:[m[34m       sub     r0, r5, #1[m
+    0.00 :	[35m  8ca0:[m[34m       cmp     r0, r3[m
+    0.00 :	[35m  8ca4:[m[34m       bge     8d60 <__pthread_mutex_lock+0x284>[m
+    0.00 :	[35m  8ca8:[m[34m       str     r1, [sp, #4][m
+    0.00 :	[35m  8cac:[m[34m       ldrex   r0, [r4][m
+    0.00 :	[35m  8cb0:[m[34m       cmp     r0, r1[m
+    0.00 :	[35m  8cb4:[m[34m       bne     8cc8 <__pthread_mutex_lock+0x1ec>[m
+    0.00 :	[35m  8cb8:[m[34m       strex   ip, r2, [r4][m
+    0.00 :	[35m  8cbc:[m[34m       cmp     ip, #0[m
+    0.00 :	[35m  8cc0:[m[34m       bne     8cac <__pthread_mutex_lock+0x1d0>[m
+    0.00 :	[35m  8cc4:[m[34m       mcr     15, 0, r0, cr7, cr10, {5}[m
+    0.00 :	[35m  8cc8:[m[34m       bne     8c98 <__pthread_mutex_lock+0x1bc>[m
+    0.00 :	[35m  8ccc:[m[34m       ldr     r3, [r4, #20][m
+    0.00 :	[35m  8cd0:[m[34m       sub     r5, r5, r3[m
+    0.00 :	[35m  8cd4:[m[34m       add     r2, r5, #7[m
+    0.00 :	[35m  8cd8:[m[34m       cmp     r5, #0[m
+    0.00 :	[35m  8cdc:[m[34m       movlt   r5, r2[m
+    0.00 :	[35m  8ce0:[m[34m       add     r5, r3, r5, asr #3[m
+    0.00 :	[35m  8ce4:[m[34m       str     r5, [r4, #20][m
+    0.00 :	[35m  8ce8:[m[34m       ldr     r3, [r4, #8][m
+    0.00 :	[35m  8cec:[m[34m       cmp     r3, #0[m
+    0.00 :	[35m  8cf0:[m[34m       beq     8b3c <__pthread_mutex_lock+0x60>[m
+    0.00 :	[35m  8cf4:[m[34m       ldr     r3, [pc, #220]  ; 8dd8 <__pthread_mutex_lock+0x2fc>[m
+    0.00 :	[35m  8cf8:[m[34m       ldr     r1, [pc, #220]  ; 8ddc <__pthread_mutex_lock+0x300>[m
+    0.00 :	[35m  8cfc:[m[34m       ldr     r0, [pc, #220]  ; 8de0 <__pthread_mutex_lock+0x304>[m
+    0.00 :	[35m  8d00:[m[34m       add     r3, pc, r3[m
+    0.00 :	[35m  8d04:[m[34m       mov     r2, #144        ; 0x90[m
+    0.00 :	[35m  8d08:[m[34m       add     r1, pc, r1[m
+    0.00 :	[35m  8d0c:[m[34m       add     r0, pc, r0[m
+    0.00 :	[35m  8d10:[m[34m       bl      4114 <__assert_fail@plt>[m
+    0.00 :	[35m  8d14:[m[34m       mov     r0, #11[m
+    0.00 :	[35m  8d18:[m[34m       b       8b5c <__pthread_mutex_lock+0x80>[m
+    0.00 :	[35m  8d1c:[m[34m       bl      13120 <__aeabi_read_tp>[m
+    0.00 :	[35m  8d20:[m[34m       cmp     r3, #2[m
+    0.00 :	[35m  8d24:[m[34m       ldr     r2, [r0, #-1112]        ; 0xfffffba8[m
+    0.00 :	[35m  8d28:[m[34m       bne     8da4 <__pthread_mutex_lock+0x2c8>[m
+    0.00 :	[35m  8d2c:[m[34m       ldr     r3, [r4, #8][m
+    0.00 :	[35m  8d30:[m[34m       cmp     r2, r3[m
+    0.00 :	[35m  8d34:[m[34m       bne     8b04 <__pthread_mutex_lock+0x28>[m
+    0.00 :	[35m  8d38:[m[34m       mov     r0, #35 ; 0x23[m
+    0.00 :	[35m  8d3c:[m[34m       b       8b5c <__pthread_mutex_lock+0x80>[m
+    0.00 :	[35m  8d40:[m[34m       ldr     r3, [pc, #156]  ; 8de4 <__pthread_mutex_lock+0x308>[m
+    0.00 :	[35m  8d44:[m[34m       ldr     r1, [pc, #156]  ; 8de8 <__pthread_mutex_lock+0x30c>[m
+    0.00 :	[35m  8d48:[m[34m       ldr     r0, [pc, #156]  ; 8dec <__pthread_mutex_lock+0x310>[m
+    0.00 :	[35m  8d4c:[m[34m       add     r3, pc, r3[m
+    0.00 :	[35m  8d50:[m[34m       mov     r2, #81 ; 0x51[m
+    0.00 :	[35m  8d54:[m[34m       add     r1, pc, r1[m
+    0.00 :	[35m  8d58:[m[34m       add     r0, pc, r0[m
+    0.00 :	[35m  8d5c:[m[34m       bl      4114 <__assert_fail@plt>[m
+    0.00 :	[35m  8d60:[m[34m       mov     r2, #1[m
+    0.00 :	[35m  8d64:[m[34m       mov     r3, #0[m
+    0.00 :	[35m  8d68:[m[34m       str     r3, [sp, #4][m
+    0.00 :	[35m  8d6c:[m[34m       ldrex   r3, [r4][m
+    0.00 :	[35m  8d70:[m[34m       cmp     r3, #0[m
+    0.00 :	[35m  8d74:[m[34m       bne     8d88 <__pthread_mutex_lock+0x2ac>[m
+    0.00 :	[35m  8d78:[m[34m       strex   r1, r2, [r4][m
+    0.00 :	[35m  8d7c:[m[34m       cmp     r1, #0[m
+    0.00 :	[35m  8d80:[m[34m       bne     8d6c <__pthread_mutex_lock+0x290>[m
+    0.00 :	[35m  8d84:[m[34m       mcr     15, 0, r0, cr7, cr10, {5}[m
+    0.00 :	[35m  8d88:[m[34m       beq     8ccc <__pthread_mutex_lock+0x1f0>[m
+    0.00 :	[35m  8d8c:[m[34m       ldr     r1, [r4, #12][m
+    0.00 :	[35m  8d90:[m[34m       mov     r0, r4[m
+    0.00 :	[35m  8d94:[m[34m       and     r1, r1, #128    ; 0x80[m
+    0.00 :	[35m  8d98:[m[34m       str     r3, [sp, #4][m
+    0.00 :	[35m  8d9c:[m[34m       bl      fe7c <__lll_lock_wait>[m
+    0.00 :	[35m  8da0:[m[34m       b       8ccc <__pthread_mutex_lock+0x1f0>[m
+    0.00 :	[35m  8da4:[m[34m       ldr     r3, [pc, #68]   ; 8df0 <__pthread_mutex_lock+0x314>[m
+    0.00 :	[35m  8da8:[m[34m       ldr     r1, [pc, #68]   ; 8df4 <__pthread_mutex_lock+0x318>[m
+    0.00 :	[35m  8dac:[m[34m       ldr     r0, [pc, #68]   ; 8df8 <__pthread_mutex_lock+0x31c>[m
+    0.00 :	[35m  8db0:[m[34m       add     r3, pc, r3[m
+    0.00 :	[35m  8db4:[m[34m       mov     r2, #149        ; 0x95[m
+    0.00 :	[35m  8db8:[m[34m       add     r1, pc, r1[m
+    0.00 :	[35m  8dbc:[m[34m       add     r0, pc, r0[m
+    0.00 :	[35m  8dc0:[m[34m       bl      4114 <__assert_fail@plt>[m
+    0.00 :	[35m  8dc4:[m[34m       .word   0x0000017f[m
+    0.00 :	[35m  8dc8:[m[34m       .word   0x0000ad64[m
+    0.00 :	[35m  8dcc:[m[34m       .word   0x0000ae44[m
+    0.00 :	[35m  8dd0:[m[34m       .word   0x0000ace4[m
+    0.00 :	[35m  8dd4:[m[34m       .word   0x0001f5cc[m
+    0.00 :	[35m  8dd8:[m[34m       .word   0x0000ac68[m
+    0.00 :	[35m  8ddc:[m[34m       .word   0x0000ad48[m
+    0.00 :	[35m  8de0:[m[34m       .word   0x0000abe8[m
+    0.00 :	[35m  8de4:[m[34m       .word   0x0000ac1c[m
+    0.00 :	[35m  8de8:[m[34m       .word   0x0000acfc[m
+    0.00 :	[35m  8dec:[m[34m       .word   0x0000ab9c[m
+    0.00 :	[35m  8df0:[m[34m       .word   0x0000abb8[m
+    0.00 :	[35m  8df4:[m[34m       .word   0x0000ac98[m
+    0.00 :	[35m  8df8:[m[34m       .word   0x0000ab54[m

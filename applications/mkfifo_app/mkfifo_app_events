@@ -1,0 +1,80 @@
+      mkfifo_app  1939 [001]  1398.765748:       probe_mkfifo_app:in: (109bc)
+      mkfifo_app  1939 [001]  1398.768100:  syscalls:sys_enter_write: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.768110:   syscalls:sys_exit_write: 0xfffffff7
+      mkfifo_app  1939 [001]  1398.768122:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.768138:    syscalls:sys_exit_read: 0x800
+      mkfifo_app  1939 [001]  1398.768235:      probe_mkfifo_app:out: (109bc <- 10a88)
+1- Time elapsed: 2487
+----------------------------------------------------------------------------------------------------
+      mkfifo_app  1939 [001]  1398.777559:       probe_mkfifo_app:in: (109bc)
+      mkfifo_app  1939 [001]  1398.777638:  syscalls:sys_enter_write: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.777644:   syscalls:sys_exit_write: 0xfffffff7
+      mkfifo_app  1939 [001]  1398.777650:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.777672:    syscalls:sys_exit_read: 0x800
+      mkfifo_app  1939 [001]  1398.777767:      probe_mkfifo_app:out: (109bc <- 10a88)
+2- Time elapsed: 208
+----------------------------------------------------------------------------------------------------
+      mkfifo_app  1939 [001]  1398.789334:       probe_mkfifo_app:in: (109bc)
+      mkfifo_app  1939 [001]  1398.789408:  syscalls:sys_enter_write: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.789414:   syscalls:sys_exit_write: 0xfffffff7
+      mkfifo_app  1939 [001]  1398.789420:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.789434:    syscalls:sys_exit_read: 0x800
+      mkfifo_app  1939 [001]  1398.789529:      probe_mkfifo_app:out: (109bc <- 10a88)
+3- Time elapsed: 195
+----------------------------------------------------------------------------------------------------
+      mkfifo_app  1939 [001]  1398.801104:       probe_mkfifo_app:in: (109bc)
+      mkfifo_app  1939 [001]  1398.801178:  syscalls:sys_enter_write: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.801184:   syscalls:sys_exit_write: 0xfffffff7
+      mkfifo_app  1939 [001]  1398.801190:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.801212:    syscalls:sys_exit_read: 0x800
+      mkfifo_app  1939 [001]  1398.801305:      probe_mkfifo_app:out: (109bc <- 10a88)
+4- Time elapsed: 201
+----------------------------------------------------------------------------------------------------
+      mkfifo_app  1939 [001]  1398.812895:       probe_mkfifo_app:in: (109bc)
+      mkfifo_app  1939 [001]  1398.812970:  syscalls:sys_enter_write: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.812976:   syscalls:sys_exit_write: 0xfffffff7
+      mkfifo_app  1939 [001]  1398.812982:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.812996:    syscalls:sys_exit_read: 0x800
+      mkfifo_app  1939 [001]  1398.813089:      probe_mkfifo_app:out: (109bc <- 10a88)
+5- Time elapsed: 194
+----------------------------------------------------------------------------------------------------
+      mkfifo_app  1939 [001]  1398.824676:       probe_mkfifo_app:in: (109bc)
+      mkfifo_app  1939 [001]  1398.824751:  syscalls:sys_enter_write: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.824758:   syscalls:sys_exit_write: 0xfffffff7
+      mkfifo_app  1939 [001]  1398.824763:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.824784:    syscalls:sys_exit_read: 0x800
+      mkfifo_app  1939 [001]  1398.824877:      probe_mkfifo_app:out: (109bc <- 10a88)
+6- Time elapsed: 201
+----------------------------------------------------------------------------------------------------
+      mkfifo_app  1939 [001]  1398.836460:       probe_mkfifo_app:in: (109bc)
+      mkfifo_app  1939 [001]  1398.836533:  syscalls:sys_enter_write: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.836539:   syscalls:sys_exit_write: 0xfffffff7
+      mkfifo_app  1939 [001]  1398.836545:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.836560:    syscalls:sys_exit_read: 0x800
+      mkfifo_app  1939 [001]  1398.836654:      probe_mkfifo_app:out: (109bc <- 10a88)
+7- Time elapsed: 194
+----------------------------------------------------------------------------------------------------
+      mkfifo_app  1939 [001]  1398.848207:       probe_mkfifo_app:in: (109bc)
+      mkfifo_app  1939 [001]  1398.848281:  syscalls:sys_enter_write: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.848287:   syscalls:sys_exit_write: 0xfffffff7
+      mkfifo_app  1939 [001]  1398.848293:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.848314:    syscalls:sys_exit_read: 0x800
+      mkfifo_app  1939 [001]  1398.848408:      probe_mkfifo_app:out: (109bc <- 10a88)
+8- Time elapsed: 201
+----------------------------------------------------------------------------------------------------
+      mkfifo_app  1939 [001]  1398.859988:       probe_mkfifo_app:in: (109bc)
+      mkfifo_app  1939 [001]  1398.860061:  syscalls:sys_enter_write: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.860069:   syscalls:sys_exit_write: 0xfffffff7
+      mkfifo_app  1939 [001]  1398.860074:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.860090:    syscalls:sys_exit_read: 0x800
+      mkfifo_app  1939 [001]  1398.860183:      probe_mkfifo_app:out: (109bc <- 10a88)
+9- Time elapsed: 195
+----------------------------------------------------------------------------------------------------
+      mkfifo_app  1939 [001]  1398.871806:       probe_mkfifo_app:in: (109bc)
+      mkfifo_app  1939 [001]  1398.871881:  syscalls:sys_enter_write: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.871889:   syscalls:sys_exit_write: 0xfffffff7
+      mkfifo_app  1939 [001]  1398.871895:   syscalls:sys_enter_read: fd: 0x0003, buf: 0x22060, count: 0x0800
+      mkfifo_app  1939 [001]  1398.871915:    syscalls:sys_exit_read: 0x800
+      mkfifo_app  1939 [001]  1398.872008:      probe_mkfifo_app:out: (109bc <- 10a88)
+10- Time elapsed: 202
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,290 @@
+0-            do_pi 31620 [000] 209502.500584:                  syscalls:sys_exit_execve: 0x0
+0-            do_pi 31620 [000] 209502.500737:                    syscalls:sys_enter_brk: brk: 0x0000
+0-            do_pi 31620 [000] 209502.500744:                     syscalls:sys_exit_brk: 0x1b75000
+0-            do_pi 31620 [000] 209502.500787:               syscalls:sys_enter_newuname: name: 0x7edc3358
+0-            do_pi 31620 [000] 209502.500796:                syscalls:sys_exit_newuname: 0x0
+0-            do_pi 31620 [000] 209502.500829:                 syscalls:sys_enter_access: filename: 0x76fb7f64, mode: 0x0000
+0-            do_pi 31620 [000] 209502.500861:                  syscalls:sys_exit_access: 0xfffffffe
+0-            do_pi 31620 [000] 209502.500875:             syscalls:sys_enter_mmap_pgoff: addr: 0x0000, len: 0x3000, prot: 0x0003, flags: 0x0022, fd: 0xffffffff, pgoff: 0x0000
+0-            do_pi 31620 [000] 209502.502118:              syscalls:sys_exit_mmap_pgoff: 0x76fc6000
+0-            do_pi 31620 [000] 209502.502158:                 syscalls:sys_enter_access: filename: 0x76fb6fb8, mode: 0x0004
+0-            do_pi 31620 [000] 209502.502179:                  syscalls:sys_exit_access: 0x0
+0-            do_pi 31620 [000] 209502.502187:                   syscalls:sys_enter_open: filename: 0x76fb6fb8, flags: 0x80000, mode: 0x0003
+0-            do_pi 31620 [000] 209502.502214:                    syscalls:sys_exit_open: 0x3
+0-            do_pi 31620 [000] 209502.502223:                syscalls:sys_enter_fstat64: fd: 0x0003, statbuf: 0x7edc3490
+0-            do_pi 31620 [000] 209502.502236:                 syscalls:sys_exit_fstat64: 0x0
+0-            do_pi 31620 [000] 209502.502242:             syscalls:sys_enter_mmap_pgoff: addr: 0x0000, len: 0x002a, prot: 0x0003, flags: 0x0002, fd: 0x0003, pgoff: 0x0000
+0-            do_pi 31620 [000] 209502.503488:              syscalls:sys_exit_mmap_pgoff: 0x76fc5000
+0-            do_pi 31620 [000] 209502.503498:                  syscalls:sys_enter_close: fd: 0x0003
+0-            do_pi 31620 [000] 209502.503505:                   syscalls:sys_exit_close: 0x0
+0-            do_pi 31620 [000] 209502.503559:                   syscalls:sys_enter_open: filename: 0x76fc7c20, flags: 0x80000, mode: 0x76fca960
+0-            do_pi 31620 [000] 209502.503589:                    syscalls:sys_exit_open: 0x3
+0-            do_pi 31620 [000] 209502.503598:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc30d0, count: 0x0200
+0-            do_pi 31620 [000] 209502.503616:                    syscalls:sys_exit_read: 0x200
+0-            do_pi 31620 [000] 209502.503632:                  syscalls:sys_enter_lseek: fd: 0x0003, offset: 0x5184, whence: 0x0000
+0-            do_pi 31620 [000] 209502.503640:                   syscalls:sys_exit_lseek: 0x5184
+0-            do_pi 31620 [000] 209502.503645:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc2be8, count: 0x03e8
+0-            do_pi 31620 [000] 209502.503653:                    syscalls:sys_exit_read: 0x3e8
+0-            do_pi 31620 [000] 209502.503659:                  syscalls:sys_enter_lseek: fd: 0x0003, offset: 0x503c, whence: 0x0000
+0-            do_pi 31620 [000] 209502.503663:                   syscalls:sys_exit_lseek: 0x503c
+0-            do_pi 31620 [000] 209502.503667:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc2bb0, count: 0x002d
+0-            do_pi 31620 [000] 209502.503674:                    syscalls:sys_exit_read: 0x2d
+0-            do_pi 31620 [000] 209502.503682:                syscalls:sys_enter_fstat64: fd: 0x0003, statbuf: 0x7edc2ff8
+0-            do_pi 31620 [000] 209502.503691:                 syscalls:sys_exit_fstat64: 0x0
+0-            do_pi 31620 [000] 209502.503701:             syscalls:sys_enter_mmap_pgoff: addr: 0x0000, len: 0x15040, prot: 0x0005, flags: 0x0802, fd: 0x0003, pgoff: 0x0000
+0-            do_pi 31620 [000] 209502.505961:              syscalls:sys_exit_mmap_pgoff: 0x76f83000
+0-            do_pi 31620 [000] 209502.505973:               syscalls:sys_enter_mprotect: start: 0x76f88000, len: 0xf000, prot: 0x0000
+0-            do_pi 31620 [000] 209502.507199:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.507209:             syscalls:sys_enter_mmap_pgoff: addr: 0x76f97000, len: 0x2000, prot: 0x0003, flags: 0x0812, fd: 0x0003, pgoff: 0x0004
+0-            do_pi 31620 [000] 209502.508453:              syscalls:sys_exit_mmap_pgoff: 0x76f97000
+0-            do_pi 31620 [000] 209502.508504:                  syscalls:sys_enter_close: fd: 0x0003
+0-            do_pi 31620 [000] 209502.508510:                   syscalls:sys_exit_close: 0x0
+0-            do_pi 31620 [000] 209502.508535:                 syscalls:sys_enter_munmap: addr: 0x76fc5000, len: 0x002a
+0-            do_pi 31620 [000] 209502.508571:                  syscalls:sys_exit_munmap: 0x0
+0-            do_pi 31620 [000] 209502.508596:                   syscalls:sys_enter_open: filename: 0x76fb8df0, flags: 0x80000, mode: 0x0001
+0-            do_pi 31620 [000] 209502.508621:                    syscalls:sys_exit_open: 0x3
+0-            do_pi 31620 [000] 209502.508626:                syscalls:sys_enter_fstat64: fd: 0x0003, statbuf: 0x7edc2f28
+0-            do_pi 31620 [000] 209502.508635:                 syscalls:sys_exit_fstat64: 0x0
+0-            do_pi 31620 [000] 209502.508640:             syscalls:sys_enter_mmap_pgoff: addr: 0x0000, len: 0xa101, prot: 0x0001, flags: 0x0002, fd: 0x0003, pgoff: 0x0000
+0-            do_pi 31620 [000] 209502.509838:              syscalls:sys_exit_mmap_pgoff: 0x76fbb000
+0-            do_pi 31620 [000] 209502.509847:                  syscalls:sys_enter_close: fd: 0x0003
+0-            do_pi 31620 [000] 209502.509853:                   syscalls:sys_exit_close: 0x0
+0-            do_pi 31620 [000] 209502.509879:                 syscalls:sys_enter_access: filename: 0x76fb7f64, mode: 0x0000
+0-            do_pi 31620 [000] 209502.509896:                  syscalls:sys_exit_access: 0xfffffffe
+0-            do_pi 31620 [000] 209502.509910:                   syscalls:sys_enter_open: filename: 0x76fc7f18, flags: 0x80000, mode: 0x76fca960
+0-            do_pi 31620 [000] 209502.509936:                    syscalls:sys_exit_open: 0x3
+0-            do_pi 31620 [000] 209502.509941:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc3038, count: 0x0200
+0-            do_pi 31620 [000] 209502.509954:                    syscalls:sys_exit_read: 0x200
+0-            do_pi 31620 [000] 209502.509962:                  syscalls:sys_enter_lseek: fd: 0x0003, offset: 0x1eb2c, whence: 0x0000
+0-            do_pi 31620 [000] 209502.509988:                   syscalls:sys_exit_lseek: 0x1eb2c
+0-            do_pi 31620 [000] 209502.509993:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc2920, count: 0x0618
+0-            do_pi 31620 [000] 209502.510005:                    syscalls:sys_exit_read: 0x618
+0-            do_pi 31620 [000] 209502.510009:                  syscalls:sys_enter_lseek: fd: 0x0003, offset: 0x161a8, whence: 0x0000
+0-            do_pi 31620 [000] 209502.510014:                   syscalls:sys_exit_lseek: 0x161a8
+0-            do_pi 31620 [000] 209502.510018:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc28e8, count: 0x002f
+0-            do_pi 31620 [000] 209502.510025:                    syscalls:sys_exit_read: 0x2f
+0-            do_pi 31620 [000] 209502.510032:                syscalls:sys_enter_fstat64: fd: 0x0003, statbuf: 0x7edc2f60
+0-            do_pi 31620 [000] 209502.510041:                 syscalls:sys_exit_fstat64: 0x0
+0-            do_pi 31620 [000] 209502.510060:             syscalls:sys_enter_mmap_pgoff: addr: 0x0000, len: 0x28250, prot: 0x0005, flags: 0x0802, fd: 0x0003, pgoff: 0x0000
+0-            do_pi 31620 [000] 209502.512283:              syscalls:sys_exit_mmap_pgoff: 0x76f5a000
+0-            do_pi 31620 [000] 209502.512292:               syscalls:sys_enter_mprotect: start: 0x76f70000, len: 0xf000, prot: 0x0000
+0-            do_pi 31620 [000] 209502.513526:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.513535:             syscalls:sys_enter_mmap_pgoff: addr: 0x76f7f000, len: 0x2000, prot: 0x0003, flags: 0x0812, fd: 0x0003, pgoff: 0x0015
+0-            do_pi 31620 [000] 209502.514786:              syscalls:sys_exit_mmap_pgoff: 0x76f7f000
+0-            do_pi 31620 [000] 209502.514817:             syscalls:sys_enter_mmap_pgoff: addr: 0x76f81000, len: 0x1250, prot: 0x0003, flags: 0x0032, fd: 0xffffffff, pgoff: 0x0000
+0-            do_pi 31620 [000] 209502.516050:              syscalls:sys_exit_mmap_pgoff: 0x76f81000
+0-            do_pi 31620 [000] 209502.516084:                  syscalls:sys_enter_close: fd: 0x0003
+0-            do_pi 31620 [000] 209502.516093:                   syscalls:sys_exit_close: 0x0
+0-            do_pi 31620 [000] 209502.516146:                 syscalls:sys_enter_access: filename: 0x76fb7f64, mode: 0x0000
+0-            do_pi 31620 [000] 209502.516165:                  syscalls:sys_exit_access: 0xfffffffe
+0-            do_pi 31620 [000] 209502.516177:                   syscalls:sys_enter_open: filename: 0x76fc81f0, flags: 0x80000, mode: 0x76fca960
+0-            do_pi 31620 [000] 209502.516203:                    syscalls:sys_exit_open: 0x3
+0-            do_pi 31620 [000] 209502.516208:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc3020, count: 0x0200
+0-            do_pi 31620 [000] 209502.516224:                    syscalls:sys_exit_read: 0x200
+0-            do_pi 31620 [000] 209502.516233:                  syscalls:sys_enter_lseek: fd: 0x0003, offset: 0x6308, whence: 0x0000
+0-            do_pi 31620 [000] 209502.516238:                   syscalls:sys_exit_lseek: 0x6308
+0-            do_pi 31620 [000] 209502.516243:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc2a20, count: 0x0500
+0-            do_pi 31620 [000] 209502.516251:                    syscalls:sys_exit_read: 0x500
+0-            do_pi 31620 [000] 209502.516256:                  syscalls:sys_enter_lseek: fd: 0x0003, offset: 0x616c, whence: 0x0000
+0-            do_pi 31620 [000] 209502.516261:                   syscalls:sys_exit_lseek: 0x616c
+0-            do_pi 31620 [000] 209502.516265:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc29e8, count: 0x002f
+0-            do_pi 31620 [000] 209502.516271:                    syscalls:sys_exit_read: 0x2f
+0-            do_pi 31620 [000] 209502.516278:                syscalls:sys_enter_fstat64: fd: 0x0003, statbuf: 0x7edc2f48
+0-            do_pi 31620 [000] 209502.516287:                 syscalls:sys_exit_fstat64: 0x0
+0-            do_pi 31620 [000] 209502.516297:             syscalls:sys_enter_mmap_pgoff: addr: 0x0000, len: 0x16210, prot: 0x0005, flags: 0x0802, fd: 0x0003, pgoff: 0x0000
+0-            do_pi 31620 [000] 209502.518594:              syscalls:sys_exit_mmap_pgoff: 0x76f43000
+0-            do_pi 31620 [000] 209502.518601:               syscalls:sys_enter_mprotect: start: 0x76f49000, len: 0xf000, prot: 0x0000
+0-            do_pi 31620 [000] 209502.519828:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.519836:             syscalls:sys_enter_mmap_pgoff: addr: 0x76f58000, len: 0x2000, prot: 0x0003, flags: 0x0812, fd: 0x0003, pgoff: 0x0005
+0-            do_pi 31620 [000] 209502.521079:              syscalls:sys_exit_mmap_pgoff: 0x76f58000
+0-            do_pi 31620 [000] 209502.521127:                  syscalls:sys_enter_close: fd: 0x0003
+0-            do_pi 31620 [000] 209502.521134:                   syscalls:sys_exit_close: 0x0
+0-            do_pi 31620 [000] 209502.521166:                 syscalls:sys_enter_access: filename: 0x76fb7f64, mode: 0x0000
+0-            do_pi 31620 [000] 209502.521183:                  syscalls:sys_exit_access: 0xfffffffe
+0-            do_pi 31620 [000] 209502.521197:                   syscalls:sys_enter_open: filename: 0x76fc84b8, flags: 0x80000, mode: 0x76fca960
+0-            do_pi 31620 [000] 209502.521224:                    syscalls:sys_exit_open: 0x3
+0-            do_pi 31620 [000] 209502.521229:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc3008, count: 0x0200
+0-            do_pi 31620 [000] 209502.521242:                    syscalls:sys_exit_read: 0x200
+0-            do_pi 31620 [000] 209502.521250:                  syscalls:sys_enter_lseek: fd: 0x0003, offset: 0x1be014, whence: 0x0000
+0-            do_pi 31620 [000] 209502.521256:                   syscalls:sys_exit_lseek: 0x1be014
+0-            do_pi 31620 [000] 209502.521260:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc2aa8, count: 0x0460
+0-            do_pi 31620 [000] 209502.521269:                    syscalls:sys_exit_read: 0x460
+0-            do_pi 31620 [000] 209502.521274:                  syscalls:sys_enter_lseek: fd: 0x0003, offset: 0x1bdea8, whence: 0x0000
+0-            do_pi 31620 [000] 209502.521278:                   syscalls:sys_exit_lseek: 0x1bdea8
+0-            do_pi 31620 [000] 209502.521282:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc2a70, count: 0x002f
+0-            do_pi 31620 [000] 209502.521289:                    syscalls:sys_exit_read: 0x2f
+0-            do_pi 31620 [000] 209502.521296:                syscalls:sys_enter_fstat64: fd: 0x0003, statbuf: 0x7edc2f30
+0-            do_pi 31620 [000] 209502.521304:                 syscalls:sys_exit_fstat64: 0x0
+0-            do_pi 31620 [000] 209502.521314:             syscalls:sys_enter_mmap_pgoff: addr: 0x0000, len: 0x1d0e74, prot: 0x0005, flags: 0x0802, fd: 0x0003, pgoff: 0x0000
+0-            do_pi 31620 [000] 209502.523605:              syscalls:sys_exit_mmap_pgoff: 0x76d72000
+0-            do_pi 31620 [000] 209502.523613:               syscalls:sys_enter_mprotect: start: 0x76f1b000, len: 0xf000, prot: 0x0000
+0-            do_pi 31620 [000] 209502.524834:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.524844:             syscalls:sys_enter_mmap_pgoff: addr: 0x76f2a000, len: 0x16000, prot: 0x0003, flags: 0x0812, fd: 0x0003, pgoff: 0x01a8
+0-            do_pi 31620 [000] 209502.526125:              syscalls:sys_exit_mmap_pgoff: 0x76f2a000
+0-            do_pi 31620 [000] 209502.526157:             syscalls:sys_enter_mmap_pgoff: addr: 0x76f40000, len: 0x2e74, prot: 0x0003, flags: 0x0032, fd: 0xffffffff, pgoff: 0x0000
+0-            do_pi 31620 [000] 209502.527358:              syscalls:sys_exit_mmap_pgoff: 0x76f40000
+0-            do_pi 31620 [000] 209502.527405:                  syscalls:sys_enter_close: fd: 0x0003
+0-            do_pi 31620 [000] 209502.527411:                   syscalls:sys_exit_close: 0x0
+0-            do_pi 31620 [000] 209502.527510:                 syscalls:sys_enter_access: filename: 0x76fb7f64, mode: 0x0000
+0-            do_pi 31620 [000] 209502.527528:                  syscalls:sys_exit_access: 0xfffffffe
+0-            do_pi 31620 [000] 209502.527540:                   syscalls:sys_enter_open: filename: 0x76fc8798, flags: 0x80000, mode: 0x76fca960
+0-            do_pi 31620 [000] 209502.527565:                    syscalls:sys_exit_open: 0x3
+0-            do_pi 31620 [000] 209502.527570:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc2ff0, count: 0x0200
+0-            do_pi 31620 [000] 209502.527584:                    syscalls:sys_exit_read: 0x200
+0-            do_pi 31620 [000] 209502.527593:                  syscalls:sys_enter_lseek: fd: 0x0003, offset: 0x6e1d8, whence: 0x0000
+0-            do_pi 31620 [000] 209502.527599:                   syscalls:sys_exit_lseek: 0x6e1d8
+0-            do_pi 31620 [000] 209502.527603:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc2a90, count: 0x0460
+0-            do_pi 31620 [000] 209502.527613:                    syscalls:sys_exit_read: 0x460
+0-            do_pi 31620 [000] 209502.527618:                  syscalls:sys_enter_lseek: fd: 0x0003, offset: 0x6e074, whence: 0x0000
+0-            do_pi 31620 [000] 209502.527622:                   syscalls:sys_exit_lseek: 0x6e074
+0-            do_pi 31620 [000] 209502.527626:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc2a58, count: 0x0031
+0-            do_pi 31620 [000] 209502.527632:                    syscalls:sys_exit_read: 0x31
+0-            do_pi 31620 [000] 209502.527640:                syscalls:sys_enter_fstat64: fd: 0x0003, statbuf: 0x7edc2f18
+0-            do_pi 31620 [000] 209502.527648:                 syscalls:sys_exit_fstat64: 0x0
+0-            do_pi 31620 [000] 209502.527657:             syscalls:sys_enter_mmap_pgoff: addr: 0x0000, len: 0x7e07c, prot: 0x0005, flags: 0x0802, fd: 0x0003, pgoff: 0x0000
+0-            do_pi 31620 [000] 209502.529874:              syscalls:sys_exit_mmap_pgoff: 0x76cf3000
+0-            do_pi 31620 [000] 209502.529881:               syscalls:sys_enter_mprotect: start: 0x76d60000, len: 0x10000, prot: 0x0000
+0-            do_pi 31620 [000] 209502.531105:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.531113:             syscalls:sys_enter_mmap_pgoff: addr: 0x76d70000, len: 0x2000, prot: 0x0003, flags: 0x0812, fd: 0x0003, pgoff: 0x006d
+0-            do_pi 31620 [000] 209502.532381:              syscalls:sys_exit_mmap_pgoff: 0x76d70000
+0-            do_pi 31620 [000] 209502.532429:                  syscalls:sys_enter_close: fd: 0x0003
+0-            do_pi 31620 [000] 209502.532436:                   syscalls:sys_exit_close: 0x0
+0-            do_pi 31620 [000] 209502.532491:                 syscalls:sys_enter_access: filename: 0x76fb7f64, mode: 0x0000
+0-            do_pi 31620 [000] 209502.532510:                  syscalls:sys_exit_access: 0xfffffffe
+0-            do_pi 31620 [000] 209502.532521:                   syscalls:sys_enter_open: filename: 0x76fc8a60, flags: 0x80000, mode: 0x76fca960
+0-            do_pi 31620 [000] 209502.532546:                    syscalls:sys_exit_open: 0x3
+0-            do_pi 31620 [000] 209502.532551:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc2fd8, count: 0x0200
+0-            do_pi 31620 [000] 209502.532566:                    syscalls:sys_exit_read: 0x200
+0-            do_pi 31620 [000] 209502.532573:                  syscalls:sys_enter_lseek: fd: 0x0003, offset: 0x12cbcc, whence: 0x0000
+0-            do_pi 31620 [000] 209502.532579:                   syscalls:sys_exit_lseek: 0x12cbcc
+0-            do_pi 31620 [000] 209502.532583:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc2398, count: 0x0b40
+0-            do_pi 31620 [000] 209502.532597:                    syscalls:sys_exit_read: 0xb40
+0-            do_pi 31620 [000] 209502.532602:                  syscalls:sys_enter_lseek: fd: 0x0003, offset: 0x12bdfc, whence: 0x0000
+0-            do_pi 31620 [000] 209502.532606:                   syscalls:sys_exit_lseek: 0x12bdfc
+0-            do_pi 31620 [000] 209502.532610:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc2360, count: 0x002f
+0-            do_pi 31620 [000] 209502.532617:                    syscalls:sys_exit_read: 0x2f
+0-            do_pi 31620 [000] 209502.532624:                syscalls:sys_enter_fstat64: fd: 0x0003, statbuf: 0x7edc2f00
+0-            do_pi 31620 [000] 209502.532633:                 syscalls:sys_exit_fstat64: 0x0
+0-            do_pi 31620 [000] 209502.532642:             syscalls:sys_enter_mmap_pgoff: addr: 0x0000, len: 0x13e540, prot: 0x0005, flags: 0x0802, fd: 0x0003, pgoff: 0x0000
+0-            do_pi 31620 [000] 209502.534961:              syscalls:sys_exit_mmap_pgoff: 0x76bb4000
+0-            do_pi 31620 [000] 209502.534971:               syscalls:sys_enter_mprotect: start: 0x76cdd000, len: 0x10000, prot: 0x0000
+0-            do_pi 31620 [000] 209502.536198:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.536205:             syscalls:sys_enter_mmap_pgoff: addr: 0x76ced000, len: 0x3000, prot: 0x0003, flags: 0x0812, fd: 0x0003, pgoff: 0x0129
+0-            do_pi 31620 [000] 209502.537454:              syscalls:sys_exit_mmap_pgoff: 0x76ced000
+0-            do_pi 31620 [000] 209502.537486:             syscalls:sys_enter_mmap_pgoff: addr: 0x76cf0000, len: 0x2540, prot: 0x0003, flags: 0x0032, fd: 0xffffffff, pgoff: 0x0000
+0-            do_pi 31620 [000] 209502.538720:              syscalls:sys_exit_mmap_pgoff: 0x76cf0000
+0-            do_pi 31620 [000] 209502.538756:                  syscalls:sys_enter_close: fd: 0x0003
+0-            do_pi 31620 [000] 209502.538762:                   syscalls:sys_exit_close: 0x0
+0-            do_pi 31620 [000] 209502.538872:                 syscalls:sys_enter_access: filename: 0x76fb7f64, mode: 0x0000
+0-            do_pi 31620 [000] 209502.538891:                  syscalls:sys_exit_access: 0xfffffffe
+0-            do_pi 31620 [000] 209502.538902:                   syscalls:sys_enter_open: filename: 0x76fc8d88, flags: 0x80000, mode: 0x76fc84e8
+0-            do_pi 31620 [000] 209502.538929:                    syscalls:sys_exit_open: 0x3
+0-            do_pi 31620 [000] 209502.538934:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc2e88, count: 0x0200
+0-            do_pi 31620 [000] 209502.538947:                    syscalls:sys_exit_read: 0x200
+0-            do_pi 31620 [000] 209502.538954:                  syscalls:sys_enter_lseek: fd: 0x0003, offset: 0x21e8, whence: 0x0000
+0-            do_pi 31620 [000] 209502.538960:                   syscalls:sys_exit_lseek: 0x21e8
+0-            do_pi 31620 [000] 209502.538966:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc2928, count: 0x0460
+0-            do_pi 31620 [000] 209502.538975:                    syscalls:sys_exit_read: 0x460
+0-            do_pi 31620 [000] 209502.538980:                  syscalls:sys_enter_lseek: fd: 0x0003, offset: 0x2088, whence: 0x0000
+0-            do_pi 31620 [000] 209502.538984:                   syscalls:sys_exit_lseek: 0x2088
+0-            do_pi 31620 [000] 209502.538989:                   syscalls:sys_enter_read: fd: 0x0003, buf: 0x7edc28f0, count: 0x002f
+0-            do_pi 31620 [000] 209502.538995:                    syscalls:sys_exit_read: 0x2f
+0-            do_pi 31620 [000] 209502.539002:                syscalls:sys_enter_fstat64: fd: 0x0003, statbuf: 0x7edc2db0
+0-            do_pi 31620 [000] 209502.539011:                 syscalls:sys_exit_fstat64: 0x0
+0-            do_pi 31620 [000] 209502.539017:             syscalls:sys_enter_mmap_pgoff: addr: 0x0000, len: 0x2000, prot: 0x0003, flags: 0x0022, fd: 0xffffffff, pgoff: 0x0000
+0-            do_pi 31620 [000] 209502.540231:              syscalls:sys_exit_mmap_pgoff: 0x76bb2000
+0-            do_pi 31620 [000] 209502.540258:             syscalls:sys_enter_mmap_pgoff: addr: 0x0000, len: 0x120b8, prot: 0x0005, flags: 0x0802, fd: 0x0003, pgoff: 0x0000
+0-            do_pi 31620 [000] 209502.542552:              syscalls:sys_exit_mmap_pgoff: 0x76b9f000
+0-            do_pi 31620 [000] 209502.542560:               syscalls:sys_enter_mprotect: start: 0x76ba1000, len: 0xf000, prot: 0x0000
+0-            do_pi 31620 [000] 209502.543790:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.543799:             syscalls:sys_enter_mmap_pgoff: addr: 0x76bb0000, len: 0x2000, prot: 0x0003, flags: 0x0812, fd: 0x0003, pgoff: 0x0001
+0-            do_pi 31620 [000] 209502.545012:              syscalls:sys_exit_mmap_pgoff: 0x76bb0000
+0-            do_pi 31620 [000] 209502.545059:                  syscalls:sys_enter_close: fd: 0x0003
+0-            do_pi 31620 [000] 209502.545066:                   syscalls:sys_exit_close: 0x0
+0-            do_pi 31620 [000] 209502.545429:               syscalls:sys_enter_mprotect: start: 0x76ced000, len: 0x2000, prot: 0x0001
+0-            do_pi 31620 [000] 209502.546635:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.546687:               syscalls:sys_enter_mprotect: start: 0x76bb0000, len: 0x1000, prot: 0x0001
+0-            do_pi 31620 [000] 209502.547908:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.547949:               syscalls:sys_enter_mprotect: start: 0x76d70000, len: 0x1000, prot: 0x0001
+0-            do_pi 31620 [000] 209502.549167:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.549245:               syscalls:sys_enter_mprotect: start: 0x76f7f000, len: 0x1000, prot: 0x0001
+0-            do_pi 31620 [000] 209502.550498:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.551891:               syscalls:sys_enter_mprotect: start: 0x76f2a000, len: 0xf000, prot: 0x0001
+0-            do_pi 31620 [000] 209502.553153:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.553213:               syscalls:sys_enter_mprotect: start: 0x76f58000, len: 0x1000, prot: 0x0001
+0-            do_pi 31620 [000] 209502.554439:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.554449:               syscalls:sys_enter_mprotect: start: 0x76f83000, len: 0x5000, prot: 0x0003
+0-            do_pi 31620 [000] 209502.555661:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.555707:               syscalls:sys_enter_mprotect: start: 0x76f83000, len: 0x5000, prot: 0x0005
+0-            do_pi 31620 [000] 209502.557999:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.558017:               syscalls:sys_enter_mprotect: start: 0x76f97000, len: 0x1000, prot: 0x0001
+0-            do_pi 31620 [000] 209502.559253:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.559271:               syscalls:sys_enter_mprotect: start: 0x21000, len: 0x1000, prot: 0x0001
+0-            do_pi 31620 [000] 209502.560463:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.560507:               syscalls:sys_enter_mprotect: start: 0x76fc9000, len: 0x1000, prot: 0x0001
+0-            do_pi 31620 [000] 209502.561697:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.561707:                 syscalls:sys_enter_munmap: addr: 0x76fbb000, len: 0xa101
+0-            do_pi 31620 [000] 209502.561762:                  syscalls:sys_exit_munmap: 0x0
+0-            do_pi 31620 [000] 209502.561813:        syscalls:sys_enter_set_tid_address: tidptr: 0x76bb2b38
+0-            do_pi 31620 [000] 209502.561821:         syscalls:sys_exit_set_tid_address: 0x7b84
+0-            do_pi 31620 [000] 209502.561827:        syscalls:sys_enter_set_robust_list: head: 0x76bb2b40, len: 0x000c
+0-            do_pi 31620 [000] 209502.561833:         syscalls:sys_exit_set_robust_list: 0x0
+0-            do_pi 31620 [000] 209502.561868:           syscalls:sys_enter_rt_sigaction: sig: 0x0020, act: 0x7edc3540, oact: 0x0000, sigsetsize: 0x0008
+0-            do_pi 31620 [000] 209502.561876:            syscalls:sys_exit_rt_sigaction: 0x0
+0-            do_pi 31620 [000] 209502.561881:           syscalls:sys_enter_rt_sigaction: sig: 0x0021, act: 0x7edc3540, oact: 0x0000, sigsetsize: 0x0008
+0-            do_pi 31620 [000] 209502.561886:            syscalls:sys_exit_rt_sigaction: 0x0
+0-            do_pi 31620 [000] 209502.561892:         syscalls:sys_enter_rt_sigprocmask: how: 0x0001, nset: 0x7edc3688, oset: 0x0000, sigsetsize: 0x0008
+0-            do_pi 31620 [000] 209502.561899:          syscalls:sys_exit_rt_sigprocmask: 0x0
+0-            do_pi 31620 [000] 209502.561958:              syscalls:sys_enter_getrlimit: resource: 0x0003, rlim: 0x7edc367c
+0-            do_pi 31620 [000] 209502.561969:               syscalls:sys_exit_getrlimit: 0x0
+0-            do_pi 31620 [000] 209502.562551:                    syscalls:sys_enter_brk: brk: 0x0000
+0-            do_pi 31620 [000] 209502.562559:                     syscalls:sys_exit_brk: 0x1b75000
+0-            do_pi 31620 [000] 209502.562563:                    syscalls:sys_enter_brk: brk: 0x1b96000
+0-            do_pi 31620 [000] 209502.563795:                     syscalls:sys_exit_brk: 0x1b96000
+0-            do_pi 31620 [000] 209502.563882:                 syscalls:sys_enter_getpid: 
+0-            do_pi 31620 [000] 209502.563890:                  syscalls:sys_exit_getpid: 0x7b84
+0-            do_pi 31620 [000] 209502.563986:                syscalls:sys_enter_fstat64: fd: 0x0001, statbuf: 0x7edc2f88
+0-            do_pi 31620 [000] 209502.564000:                 syscalls:sys_exit_fstat64: 0x0
+0-            do_pi 31620 [000] 209502.564034:                  syscalls:sys_enter_write: fd: 0x0001, buf: 0x1b75018, count: 0x0043
+0-            do_pi 31620 [000] 209502.569253:                   syscalls:sys_exit_write: 0x43
+0-            do_pi 31620 [000] 209502.574404: syscalls:sys_enter_sched_get_priority_min: policy: 0x0001
+0-            do_pi 31620 [000] 209502.574414:  syscalls:sys_exit_sched_get_priority_min: 0x1
+0-            do_pi 31620 [000] 209502.574426: syscalls:sys_enter_sched_get_priority_max: policy: 0x0001
+0-            do_pi 31620 [000] 209502.574432:  syscalls:sys_exit_sched_get_priority_max: 0x63
+0-            do_pi 31620 [000] 209502.574455:             syscalls:sys_enter_mmap_pgoff: addr: 0x0000, len: 0x800000, prot: 0x0003, flags: 0x20022, fd: 0xffffffff, pgoff: 0x0000
+0-            do_pi 31620 [000] 209502.575629:              syscalls:sys_exit_mmap_pgoff: 0x7639f000
+0-            do_pi 31620 [000] 209502.575680:               syscalls:sys_enter_mprotect: start: 0x7639f000, len: 0x1000, prot: 0x0000
+0-            do_pi 31620 [000] 209502.576877:                syscalls:sys_exit_mprotect: 0x0
+0-            do_pi 31620 [000] 209502.576905:                  syscalls:sys_enter_clone: clone_flags: 0x3d0f00, newsp: 0x76b9dfa8, parent_tidptr: 0x76b9e4d8, tls: 0x76b9e930, child_tidptr: 0x76b9e4d8
+0-            do_pi 31620 [001] 209502.681755:                   syscalls:sys_exit_clone: 0x7b85
+0-            do_pi 31620 [001] 209502.681802:                  syscalls:sys_enter_futex: uaddr: 0x76b9e4d8, op: 0x0000, val: 0x7b85, utime: 0x0000, uaddr2: 0x76b9e470, val3: 0x0000
+0-            do_pi 31620 [001] 209502.681814:                            probe:do_futex: (801a1b10) val=0x7b85
+0-            do_pi 31620 [001] 209502.681821:                          probe:futex_wait: (8019fed4) val=0x7b85 ret=1991894232
+0-            do_pi 31621 [003] 209502.684001:        syscalls:sys_enter_set_robust_list: head: 0x76b9e4e0, len: 0x000c
+0-            do_pi 31621 [003] 209502.684014:         syscalls:sys_exit_set_robust_list: 0x0
+0-            do_pi 31621 [003] 209502.684040:                  syscalls:sys_enter_futex: uaddr: 0x220a4, op: 0x0081, val: 0x7fffffff, utime: 0x0000, uaddr2: 0x0001, val3: 0x220a0
+0-            do_pi 31621 [003] 209502.684050:                            probe:do_futex: (801a1b10) val=0x7fffffff
+0-            do_pi 31621 [003] 209502.684058:                          probe:futex_wake: (8019fd6c) nr_wake=2147483647 ret=0
+0-            do_pi 31621 [003] 209502.684066:                   syscalls:sys_exit_futex: 0x0
+0-            do_pi 31621 [003] 209502.684097:                         probe_do_pi:entry: (10988) p=0
+0-            do_pi 31621 [003] 209502.686476:                          probe_do_pi:exit: (10990) p=0
+1-            do_pi 31621 [003] 209502.686495:                        probe_do_pi:unlock: (10aa0) p=0
+1-            do_pi 31621 [003] 209502.686513:                         probe_do_pi:entry: (10988) p=0
+1-            do_pi 31621 [003] 209502.686524:                          probe_do_pi:exit: (10990) p=0
+2-            do_pi 31621 [003] 209502.686535:                        probe_do_pi:unlock: (10aa0) p=0
+2-            do_pi 31621 [003] 209502.686545:                         probe_do_pi:entry: (10988) p=0
+2-            do_pi 31621 [003] 209502.686556:                          probe_do_pi:exit: (10990) p=0
+3-            do_pi 31621 [003] 209502.686567:                        probe_do_pi:unlock: (10aa0) p=0
+3-            do_pi 31621 [003] 209502.686577:                         probe_do_pi:entry: (10988) p=0
+3-            do_pi 31621 [003] 209502.686588:                          probe_do_pi:exit: (10990) p=0
+4-            do_pi 31621 [003] 209502.686598:                        probe_do_pi:unlock: (10aa0) p=0
+4-            do_pi 31621 [003] 209502.686609:                         probe_do_pi:entry: (10988) p=0
+4-            do_pi 31621 [003] 209502.686619:                          probe_do_pi:exit: (10990) p=0
+5-            do_pi 31621 [003] 209502.686630:                        probe_do_pi:unlock: (10aa0) p=0
+5-            do_pi 31621 [003] 209502.686671:                syscalls:sys_enter_madvise: start: 0x7639f000, len_in: 0x7fa000, behavior: 0x0004
+5-            do_pi 31621 [003] 209502.686822:                 syscalls:sys_exit_madvise: 0x0
+5-            do_pi 31621 [003] 209502.686829:                   syscalls:sys_enter_exit: error_code: 0x0000
+5-            do_pi 31621 [003] 209502.686852:                            probe:do_futex: (801a1b10) val=0x1
+5-            do_pi 31621 [003] 209502.686857:                          probe:futex_wake: (8019fd6c) nr_wake=1 ret=1
+5-            do_pi 31620 [001] 209502.688786:                   syscalls:sys_exit_futex: 0x0
+5-            do_pi 31620 [001] 209502.689004:             syscalls:sys_enter_exit_group: error_code: 0x0000
