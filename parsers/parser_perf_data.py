@@ -149,6 +149,7 @@ class Parser:
                         for ev in ev_header_arr:
                             if ev.replace('*', '') in splitted_line[1]:
                                 ev_count_arr[ev_header_arr.index(ev)] += 1
+        print(csv_table)
         return csv_table
 
     def write_csv_table(self, csv_table):
@@ -187,12 +188,13 @@ class Parser:
             self.parse_mls_data()
         elif self.e_flag and self.m_flag:
             self.parse_mls_data()
-        elif self.e_flag:
-            csv_table = self.parse_e_data()
         elif self.m_flag:
             self.parse_m_data()
         elif self.ls_flag:
             self.parse_ls_data()
+        #elif self.e_flag:
+        else:
+            csv_table = self.parse_e_data()
         self.write_csv_table(csv_table)
         self.print_time(csv_table)
 
