@@ -6,10 +6,13 @@ function error () {
 }
 
 function usage () {
+    if ! [ -z "$1" ]; then
+        echo "Unknown option: $1"
+    fi
     echo "Usage: ./perf_run [options] program_bin"
     echo "  -A    Specify list of the program's argv: -A 10,tcp,0"
     echo "  -e    Select others events to measure: -e kmem:kmalloc,probe_user:probe1,branches"
-    echo "  -ls   Select Leader Sampling method: -ls cache-misses,cycles"
+    echo "  --ls   Select Leader Sampling method: -ls cache-misses,cycles"
     echo "  -a    Measure events in system-wide mode"
     echo "  -C    Select which CPU to measure: -C 1"
     echo "  -m    Select to measure multiple functions calls within the selected fuction"
@@ -24,7 +27,7 @@ parser_args=""
 
 TEMP=`getopt -o e:m:t:p:l:C:A:ah --long ls: -- "$@"`
 eval set -- "$TEMP"
-echo $TEMP
+
 while true ; do
     case "$1" in
         -h) usage ;;
@@ -39,22 +42,31 @@ while true ; do
         -a) systemwide=$1 ; shift ;;
         -A) program_args=$2 ; shift 2 ;;
         -C) cpu="$1 $2" ; shift 2 ;;
-        --) shift ; program_bin=$1 ; break ;;
-        *) error "Unknown option: $1";
+        --) shift ; if [ -z "$1" ]; then usage; else program_bin=$1; fi; break ;;
+        *) usage ;
     esac
 done
-echo $TEMP
 
-echo "-e $events"
-echo "-m $mevents"
-echo "--ls $lsevents"
-echo "-p $path"
-echo "-r $loops"
-echo "-A $program_args"
-echo "$cpu"
-echo "-t $threads"
-echo "$program_bin"
-exit
+echo "----- perf record $program_bin -----"
+echo "Options:"
+if ! [ -z "$program_args" ]; then
+    echo "- Program args: $program_args"
+fi
+if ! [ -z "$events" ]; then
+    echo "- Events: $events"
+fi
+if ! [ -z "$mevents" ]; then
+    echo "- Multiple events: $mevents"
+fi
+if ! [ -z "$lsevents" ]; then
+    echo "- Leader sampling events: $lsevents"
+fi
+if ! [ -z "$threads" ]; then
+    echo "- Threads: $threads"
+fi
+if ! [ -z "$path" ]; then
+    echo "- Path: $path"
+fi
 
 program_path=out/$program_bin
 if ! [ -z "$path" ]; then
